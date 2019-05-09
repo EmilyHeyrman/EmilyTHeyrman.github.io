@@ -1,52 +1,146 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emily Heyrman's Journey</title>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="styles/flex.css">
+      <!--- JQUERY ------------------------------------------------------------------------------->
+      		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+      		<script type='text/javascript' src="js/mobile_menu.js"></script>
+
+      <!---Lato and Bad Script Font courtesy of Google Fonts at fonts.google.com ----------------->
+      		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+      		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+      		<script>
+
+      					  /* Following script courtesy of jQuery UI documentation of toggle effect*/
+
+      					  //Toggle mobile menu visability
+      					  $( function() {
+      						  $('#mobile-nav-container').removeClass('hidden');
+
+      						  $( "#menu-button" ).on( "click", function() {
+      								runEffect("#mobile-nav-container");
+      						  });
+
+      					  } );
+
+      					  $( function() {
+      						  $( "#menu-button" ).on( "click", function() {
+      								runEffect("#menu-icon");
+      						  });
+
+      					  } );
+
+      					  $( function() {
+      						  $('#close-icon').removeClass('hidden');
+
+      						  $( "#menu-button" ).on( "click", function() {
+      								runEffect("#close-icon");
+      						  });
+
+      					  } );
+
+      					  var isVisible = false;
+      						$(window).scroll(function(){
+      						     var shouldBeVisible = $(window).scrollTop()>200;
+      						     if (shouldBeVisible && !isVisible) {
+      						          isVisible = true;
+      						          $('#back-to-top').show();
+      						     } else if (isVisible && !shouldBeVisible) {
+      						          isVisible = false;
+      						          $('#back-to-top').hide();
+      						    }
+      						});
+      		</script>
   </head>
-  <body>
-    <!-- Navigation Bar links -->
-   <div id="myLinks">
-       <a href="journey.html">About</a>
-       <a href="index.html">Work</a>
-       <a href="index.html">Contact</a>
+  <!--- BODY START --------------------------------------------------------------------------->
+    <body>
+  <!--MOBILE HEADER START--------------------------------------------------------------------->
+  <article class='light'>
+  <header>
+    <div id='mobile-header'>
+      <div id='mobile-header-img-container'>
+        <div id='menu-button-container'>
+          <a href='#!' id='menu-button'>
+            <img id='menu-icon' src='images/menu-icon.png' alt='' />
+            <img id='close-icon' src='images/cancel.png' alt='' />
+            <div class='clear'></div>
+          </a>
+        </div>
+      </div>
+        <div class='clear'></div>
+      <div id='mobile-nav-container'>
+          <nav id='mobile-nav'>
+            <ul>
+              <li><a href='index.html'>Home</a></li>
+              <li><a href='#Journey'>About</a></li>
+              <li><a href='#Contact'>Contact</a></li>
+            </ul>
+          </nav>
+      </div>
+      <div class='scroll-down'>
+        <img src='img/icons/scroll-down.png' alt='Back to Top Icon' / >
+      </div>
     </div>
-    <!-- Hero Section -->
-  <section class="hero">
-    <img class="images" src="images/MyJourneyImage.jpg" alt="My Journey Header Image"/>
-      <h1>My Journey to UX/UI Design</h1>
-        <p>I always found the joy of drawing, and had the privilege to go to Disney World. I loved going to the artist and design buildings at Disney and watching the artist build and create new artwork. I was watching this one artist draw Mickey Mouse on the main street of the magic kingdom. He looked up at me and asked ” would you like to learn how to draw Mickey Mouse”? With excitement I said “yes”. He let me sit in his art studio and step by step taught me how to draw Mickey Mouse. This   moment made me realize I wanted to do something in the world of art, but what. </p>
-        <p>In high school I still had the passion for art, it was the one thing I was really good at. I had a hard time with other subjects in school. Finding myself in special education classes for reading and math it was frustrating. The only real class I would get excited about was art class. One of my art teachers introduced me to photography and Photoshop. Lets just say my early work of PhotoShop was not the best, but I learned. I loved taking a photo and making it better with adobe programs. There is always a way to make something better, and this made me start thinking of a career in design. I loved the art of Photography and it brought my love of electronics and art into one feeled . At this point I knew I wanted to go to college for Photography. </p>
-        <p>Attending College at Bay De Noc Community College. I studied in Fine Arts and found myself taking more art classes then anything. I loved the opportunity to try new areas of art. This brought my attention away from a career in photography and started thinking of a different way to better the world in a career in design. I  wanted to utilize my natural ability of problem solving and art skills on one career, but I still didn’t know exactly what. Unfortunately life happened and I had to drop out of college and find a full time job to pay bills. </p>
-        <p>I ended up managing our local Radio Shack. When I first started at Radio Shack we were a Verizon Dealer also. So Verizon taught me to fine tune my problem solving skills, search for a solution and perform great customer service. To this day I still get my old customers messaging me on social media asking me questions about there phones. We eventually stopped selling Verizon and switched to a Radio Shack and Printing Store. With my background of Photoshop and Lightroom I became the head designer for the store. I would design logos and business supplies for local businesses. I loved the fact that I could be creative again. This was great but still not the impact of design I wanted to portray on the world. One day I noticed our venders websites were very hard to navigate through. This triggered my path to UX/UI Design.</p>
+  </header>
+  <!--- GRID CONTAINER------------------------------------------------------------------------>
+       <div class="container-journey">
+    <!-- HERO SECTION ------------------------------------------------------------------------>
+  <section class="hero-journey" id=Journey>
+      <h1 class="my-journey-h1">My Journey to UX/UI Design</h1>
+      <img class="My-Journey-Image" src="images/MyJourneyImage.jpg" alt="My Journey Header Image"/>
+    </section>
+    <section class="paragraph-journey">
+        <p class="p-1"><b class="bold">I always found the joy of drawing, and had the privilege to go to Disney World. </b>I loved going to the artist and design buildings at Disney and watching the artist build and create new artwork. I was watching this one artist draw Mickey Mouse on the main street of the magic kingdom. He looked up at me and asked ” would you like to learn how to draw Mickey Mouse”? With excitement I said “yes”. He let me sit in his art studio and step by step taught me how to draw Mickey Mouse. This moment made me realize I wanted to do something in the world of art, but what. </p>
+        <p class="p-1"><b class="bold">In high school I still had the passion for art, it was the one thing I was really good at.</b>I had a hard time with other subjects in school. Finding myself in special education classes for reading and math it was frustrating. The only real class I would get excited about was art class. One of my art teachers introduced me to photography and Photoshop. Lets just say my early work of PhotoShop was not the best, but I learned. I loved taking a photo and making it better with adobe programs. There is always a way to make something better, and this made me start thinking of a career in design. I loved the art of Photography and it brought my love of electronics and art into one feeled . At this point I knew I wanted to go to college for Photography. </p>
+        <p class="p-1"><b class="bold">I Attending College at Bay De Noc Community College.</b>I studied in Fine Arts and found myself taking more art classes then anything. I loved the opportunity to try new areas of art. This brought my attention away from a career in photography and started thinking of a different way to better the world in a career in design. I  wanted to utilize my natural ability of problem solving and art skills on one career, but I still didn’t know exactly what. Unfortunately life happened and I had to drop out of college and find a full time job to pay bills. </p>
+        <p class="p-1"><b class="bold">I ended up managing our local Radio Shack.</b>When I first started at Radio Shack we were a Verizon Dealer also. So Verizon taught me to fine tune my problem solving skills, search for a solution and perform great customer service. To this day I still get my old customers messaging me on social media asking me questions about there phones. We eventually stopped selling Verizon and switched to a Radio Shack and Printing Store. With my background of Photoshop and Lightroom I became the head designer for the store. I would design logos and business supplies for local businesses. I loved the fact that I could be creative again. This was great but still not the impact of design I wanted to portray on the world. One day I noticed our venders websites were very hard to navigate through. This triggered my path to UX/UI Design.</p>
   </section>
-  <!-- Lets Talk Section -->
-  <footer class="lets-talk-links">
-      <h1>Let's Talk</h1>
-      <a href="mailto:flynns_shutters@hotmail.com" target="_blank"> flynns_shutters@hotmail.com</a>
-      <ul class="footer__link-list">
-        <li>
-      <a href="https://www.linkedin.com/in/emily-heyrman-a6504417b/" target="_blank">
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      </a>
-    </li>
+  <!--- LET'S TALK LINK FOOTER SECTION -------------------------------------------------------->
+    <section class="footer" id=Contact>
+    <footer class="lets-talk-links" id="Contact">
+        <h1>Let's Talk</h1>
+  <!--- EMAIL LINK ---------------------------------------------------------------------------->
+  <ul class="footer__link-list">
     <li>
-      <a href="https://github.com/EmilyHeyrman" target="_blank">
-        <i class="fa fa-github-square" aria-hidden="true"></i>
-      </a>
+        <a class="email-link" href="mailto:flynns_shutters@hotmail.com" target="_blank"> flynns_shutters@hotmail.com</a>
     </li>
-    <li>
-      <a href="https://www.facebook.com/emily.flynn.31?ref=bookmarks" target="_blank">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://twitter.com/HeyrmanEmily" target="_blank">
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-      </a>
+  <!--- LINKEDIN LINK-------------------------------------------------------------------------->
+          <li>
+        <a class="linkedin-link" href="{https://www.linkedin.com/in/emily-heyrman-a6504417b/" target="_blank">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+  <!--- GITHUB LINK --------------------------------------------------------------------------->
+      <li>
+        <a class="github-link" href="{https://github.com/EmilyHeyrman" target="_blank">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </li>
+  <!--- FACEBOOK LINK ------------------------------------------------------------------------->
+      <li>
+        <a class="facebook-link" href="https://www.facebook.com/emily.flynn.31?ref=bookmarks" target="_blank">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+  <!--- TWITTER LINK -------------------------------------------------------------------------->
+      <li>
+         <a class="twittier-link" href="{https://twitter.com/HeyrmanEmily" target="_blank">
+           <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
     </li>
       </ul>
    </footer>
+  </section>
+ </div>
   </body>
 </html>

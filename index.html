@@ -1,66 +1,157 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--- PAGE HEADER TITLE DISPLAYED----------------------------------------------------------->
     <title>Emily Heyrman | Portfolio</title>
-      <!-- Font Awesome -->
+<!--- FONT AWESOME ------------------------------------------------------------------------->
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
+<!--- CUSTOM STYLES ------------------------------------------------------------------------>
+         <link rel="stylesheet" href="styles/reset.css">
+         <link rel="stylesheet" href="styles/main.css">
+<!--- JQUERY ------------------------------------------------------------------------------->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<script type='text/javascript' src="js/mobile_menu.js"></script>
+
+<!---Lato and Bad Script Font courtesy of Google Fonts at fonts.google.com ----------------->
+		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+		<script>
+
+					  /* Following script courtesy of jQuery UI documentation of toggle effect*/
+
+					  //Toggle mobile menu visability
+					  $( function() {
+						  $('#mobile-nav-container').removeClass('hidden');
+
+						  $( "#menu-button" ).on( "click", function() {
+								runEffect("#mobile-nav-container");
+						  });
+
+					  } );
+
+					  $( function() {
+						  $( "#menu-button" ).on( "click", function() {
+								runEffect("#menu-icon");
+						  });
+
+					  } );
+
+					  $( function() {
+						  $('#close-icon').removeClass('hidden');
+
+						  $( "#menu-button" ).on( "click", function() {
+								runEffect("#close-icon");
+						  });
+
+					  } );
+
+					  var isVisible = false;
+						$(window).scroll(function(){
+						     var shouldBeVisible = $(window).scrollTop()>200;
+						     if (shouldBeVisible && !isVisible) {
+						          isVisible = true;
+						          $('#back-to-top').show();
+						     } else if (isVisible && !shouldBeVisible) {
+						          isVisible = false;
+						          $('#back-to-top').hide();
+						    }
+						});
+		</script>
+	</head>
+
+<!--- BODY START --------------------------------------------------------------------------->
   <body>
-     <!-- Navigation Bar links -->
-    <div id="myLinks">
-        <a href="journey.html">About</a>
-        <a href="#journey">Work</a>
-        <a href="#contact">Contact</a>
-     </div>
-     <!-- Hero Section -->
+<!--MOBILE HEADER START--------------------------------------------------------------------->
+<article class='light'>
+<header>
+  <div id='mobile-header'>
+    <div id='mobile-header-img-container'>
+      <div id='menu-button-container'>
+        <a href='#!' id='menu-button'>
+          <img id='menu-icon' src='images/menu-icon.png' alt='' />
+          <img id='close-icon' src='images/cancel.png' alt='' />
+          <div class='clear'></div>
+        </a>
+      </div>
+    </div>
+      <div class='clear'></div>
+    <div id='mobile-nav-container'>
+        <nav id='mobile-nav'>
+          <ul>
+            <li><a href='journey.html'>About</a></li>
+            <li><a href='images/Résumé.png'>Résumé</a></li>
+            <li><a href='#Contact'>Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+    <div class='scroll-down'>
+      <img src='img/icons/scroll-down.png' alt='Back to Top Icon' / >
+    </div>
+  </div>
+</header>
+<!--- GRID CONTAINER------------------------------------------------------------------------>
+     <div class="container">
+<!--- HERO SECTION-------------------------------------------------------------------------->
    <section class="hero">
-     <img class="images" src="images/EmilyHeyrmanLogo.png" alt="Emily Heyrman Logo"/>
-     <img class="images" src="images/feathers.jpg" alt="Hero Background Image"/>
-       <h1>Hi, my name is Emily Heyrman</h1>
+     <img class="image-feathers" src="images/feathers.jpg" alt="Hero Background Image"/>
+      <img class="logo" src="images/EmilyHeyrmanLogo.png" alt="Emily Heyrman Logo"/>
+       <h1>Hello,<br>my name is Emily Heyrman</h1>
        <h2>I'm a UX/UI Designer bassed in Upper Michigan. Some people look for beautiful places, others make a place beautiful.</h2>
    </section>
-   <!-- My Journey Section -->
-        <section class="my journey">
-          <img class="images" src="images/SummerAndMe.jpg" alt="Personal Image"/>
+<!--- MY STORY (JOURNEY) SECTION------------------------------------------------------------>
+        <section class="my-journey" id="Journey">
             <h2>The Story of Me</h2>
             <p>The journey that led me to this exact moment</p>
-            <button class="My Life"><a href="journey.html">My Life</a></button>
+              <a class="My-Life-Button" href="journey.html">My Life</a>
+            <img class="journey-image" src="images/SummerAndMe.jpg" alt="Personal Image"/>
         </section>
-  <!-- Save Safe Case Study Section -->
-  <section class="Save Safe" id="journey">
-    <img class="images" src="images/SaveSafeHomePage.jpg" alt="Save Safe Image on Desktop"/>
+<!--- SAVE SAFE CASE STUDY SECTION ---------------------------------------------------------->
+  <section class="Save-Safe" id="Save-Safe-Section">
       <h2>Save Safe</h2>
       <p>Cloud storage app for the everyday saver.</p>
       <h3>UX/UI Designer | Prototype</h3>
-      <button class="Case Study"><a href="project.html">Case Study</a></button>
-      <button class="Prototype"><a href="https://www.figma.com/proto/QVsmUi4h7M5WoKbPxkUsWfOB/Save-Safe-Desktop-Macbook-Pro?node-id=261%3A0&viewport=495%2C303%2C0.0218388&scaling=scale-down ">Prototype</a></button>
+      <a class="Case-Study-Button" href="project.html">Case Study</a>
+      <a class="Prototype-Button" href="https://www.figma.com/proto/QVsmUi4h7M5WoKbPxkUsWfOB/Save-Safe-Desktop-Macbook-Pro?node-id=261%3A0&viewport=495%2C303%2C0.0218388&scaling=scale-down ">Prototype</a>
+        <img class="Save-Safe-Image" src="images/SaveSafeHomePage.jpg" alt="Save Safe Image on Desktop"/>
   </section>
-  <!-- Lets Talk Section -->
-  <footer class="lets-talk-links" id="contact">
+<!--- LET'S TALK LINK FOOTER SECTION -------------------------------------------------------->
+  <section class="footer">
+  <footer class="lets-talk-links" id="Contact">
       <h1>Let's Talk</h1>
-      <a href="mailto:flynns_shutters@hotmail.com" target="_blank"> flynns_shutters@hotmail.com</a>
+<!--- EMAIL LINK ---------------------------------------------------------------------------->
+      <a class="email-link" href="mailto:flynns_shutters@hotmail.com" target="_blank"> flynns_shutters@hotmail.com</a>
       <ul class="footer__link-list">
+<!--- LINKEDIN LINK-------------------------------------------------------------------------->
         <li>
-      <a href="https://www.linkedin.com/in/emily-heyrman-a6504417b" target="_blank">
+      <a class="linkedin-link" href="https://www.linkedin.com/in/emily-heyrman-a6504417b" target="_blank">
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
       </a>
     </li>
+<!--- GITHUB LINK --------------------------------------------------------------------------->
     <li>
-      <a href="https://github.com/EmilyHeyrman" target="_blank">
+      <a class="github-link" href="https://github.com/EmilyHeyrman" target="_blank">
         <i class="fa fa-github-square" aria-hidden="true"></i>
       </a>
     </li>
+<!--- FACEBOOK LINK ------------------------------------------------------------------------->
     <li>
-      <a href="https://www.facebook.com/emily.flynn.31?ref=bookmarks" target="_blank">
+      <a class="facebook-link" href="https://www.facebook.com/emily.flynn.31?ref=bookmarks" target="_blank">
         <i class="fa fa-facebook-square" aria-hidden="true"></i>
       </a>
     </li>
+<!--- TWITTER LINK -------------------------------------------------------------------------->
     <li>
-      <a href="https://twitter.com/HeyrmanEmily" target="_blank">
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+       <a class="twittier-link" href="https://twitter.com/HeyrmanEmily" target="_blank">
+         <i class="fa fa-twitter-square" aria-hidden="true"></i>
       </a>
-    </li>
-      </ul>
-   </footer>
-  </body>
+      </li>
+     </ul>
+    </footer>
+   </section>
+  </div>
+ </body>
 </html>

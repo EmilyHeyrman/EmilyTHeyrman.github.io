@@ -1,0 +1,1075 @@
+/* ----------------------- MOBILE DESIGN -------------------------*/
+
+/* ----------------------- HOME PAGE -------------------------*/
+html {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 10px;
+}
+
+/* ----------------------- BODY COLOR OF HTML BACKGROUND -------------------------*/
+body {
+  background-color: #ffffff;
+}
+
+/* ----------------------- GRID -------------------------*/
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:  14.3rem 15.9rem 16.0rem 19.0rem;
+}
+
+/* ----------------------- MOBILE NAV BAR -------------------------*/
+article{
+  width: 100%;
+  }
+
+#mobile-header-img-container{
+  background-color: #FFA796;
+  width: 100%;
+  }
+
+#menu-button-container{
+  width: 100%;
+}
+
+#menu-icon{
+  padding: .5rem 1.5rem .5rem 89%;
+  width: 6%;
+ }
+
+#close-icon{
+  display: none;
+  padding: .5rem 1.5rem .5rem 89%;
+  width: 6%;
+}
+
+#mobile-nav-container{
+  background-color: #FFA796;
+  display: none;
+}
+
+#mobile-nav-container li{
+  border-bottom: 2px solid #ffffff;
+  margin: 0 10px;
+  padding: 30px 20px;
+  text-align: center;
+  }
+
+#mobile-nav-container li:nth-child(3){
+  border-bottom: 0 solid #FFFFFF;
+}
+
+#mobile-nav-container a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.scroll-down{
+  display: none;
+}
+
+#header-1st-col{
+  float: left;
+  width: 40%;
+}
+
+#header-1st-col img{
+  float: right;
+  margin: 20% 10% 20% 30%;
+  width: 60%;
+}
+
+#header-2nd-col{
+  float: left;
+  width: 60%;
+}
+
+#header-heading{
+  margin-top: 50%;
+}
+
+#desktop-header{
+  display: none;
+}
+
+/* ----------------------- MENU BAR -------------------------*/
+
+.menu {
+  background-color: #FFA796;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+}
+
+/* ----------------------- HERO SECTION HOME PAGE-------------------------*/
+
+/* ----------------------- MOBILE LOGO -------------------------*/
+
+.logo{
+  height: 17.63px;
+  padding: 10px 15px;
+  position: absolute;
+}
+
+.image-feathers{
+  height: auto;
+  position: absolute;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.hero h1{
+  font-size: 20px;
+  height: auto;
+  line-height: 2.5rem;
+  padding: 7% 12%;
+  position: absolute;
+  text-align: center;
+}
+
+.hero h2{
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 8.3rem 4.2rem 0;
+  position: absolute;
+  text-align: center;
+}
+
+/* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
+
+.my-journey{
+  margin-top: 1.3rem;
+}
+
+.journey-image{
+  height: auto;
+  width: 100%;
+}
+
+.my-journey h2{
+  font-size: 20px;
+  padding: 1.5rem;
+  position: absolute;
+}
+
+.my-journey p{
+  color: #000000;
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 5.5rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  width: 16.3rem;
+}
+
+.My-Life-Button{
+  background: #D6FFF9;
+  border-radius: .5rem;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 12px;
+  left: 4.7rem;
+  margin-top: 26%;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 6.4rem;
+}
+
+/* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
+
+.Save-Safe{
+  margin-top: 1.3rem;
+}
+
+.Save-Safe-Image{
+  height: auto;
+  width: 100%;
+}
+
+.Save-Safe h2{
+  color: #000000;
+  font-size: 20px;
+  padding: 1rem 0 0 23rem;
+  position: absolute;
+  width: 27%;
+}
+
+.Save-Safe p{
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 3.6rem 1.5rem 0 19.3rem;
+  position: absolute;
+  text-align: center;
+  width: 42%;
+}
+
+.Save-Safe h3{
+  color: #000000;
+  font-size: 12px;
+  padding: 7.4rem 0 0 19rem;
+  position: absolute;
+  width: 44%;
+}
+
+.Prototype-Button{
+  background: #D6FFF9;
+  border-radius: .5rem;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 12px;
+  margin: 26% 0 0 45%;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 6.4rem;
+}
+
+.Case-Study-Button{
+  background: #D6FFF9;
+  border-radius: .5rem;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 12px;
+  margin: 26% 1.5rem 0 73%;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 6.4rem;
+}
+
+/* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+.lets-talk-links h1{
+  color: #000000;
+  font-size: 20px;
+  padding: 3rem 14.2rem;
+  width: 9.1rem;
+}
+
+.email-link{
+  color: #000000;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0 27%;
+  text-decoration: none;
+}
+
+.linkedin-link{
+  color: #000000;
+  font: normal normal normal 25px/1 FontAwesome;
+  left: 12.5%;
+  padding-top: 3rem;
+  position: absolute;
+}
+
+.github-link{
+  color: #000000;
+  font: normal normal normal 25px/1 FontAwesome;
+  left: 35%;
+  padding-top: 3rem;
+  position: absolute;
+}
+
+.facebook-link{
+  color: #000000;
+  font: normal normal normal 25px/1 FontAwesome;
+  left: 60%;
+  padding-top: 3rem;
+  position: absolute;
+  top: 9rem;
+}
+
+.twittier-link{
+  color: #000000;
+  font: normal normal normal 25px/1 FontAwesome;
+  padding-top: 3rem;
+  position: absolute;
+  top: 9rem;
+  left: 83%;
+}
+
+.footer{
+  background-color: #97B7CC;
+  margin-top: 1.3rem;
+}
+
+.lets-talk-links{
+  position: absolute;
+  width: 100%;
+}
+
+/* ------------------CASE STUDY FOR SAVE SAFE MOBILE ---------------------------------*/
+
+/* ------------------GRID FOR CASE STUDY SAVE SAFE ---------------------------------*/
+
+.container-SaveSafe{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:
+  /*-- Hero --*/14.4rem
+  /*-- Overview --*/28.0rem
+  /*-- Problem --*/28.0rem
+  /*-- Solution --*/15.8rem
+  /*-- Process --*/43rem
+  /*-- User Surveys --*/23.0rem
+  /*-- SWOT Surveys --*/17.5rem
+  /*-- Personas --*/71.5rem
+  /*-- User Stories --*/21.5rem
+  /*-- User Flows --*/64.0rem
+  /*-- Wireframes --*/50.0rem
+  /*-- Analysis of Test --*/33.0rem
+  /*-- Mockups --*/38.8rem
+  /*-- Branding --*/87.0rem
+  /*-- Typeface --*/42.0rem
+  /*-- Prototype --*/14.5rem
+  /*-- Analysis of Test --*/44.5rem
+  /*-- Conclusion --*/26.5rem
+  /*-- Footer --*/19.0rem
+
+  ;
+}
+
+/* ------------------HERO SECTION FOR CASE STUDY SAVE SAFE ---------------------------------*/
+
+.hero-image{
+  width: 100%;
+}
+
+.hero-SaveSafe h1{
+  font-size: 20px;
+  line-height: 2.5rem;
+  padding: .5rem 4rem;
+  position: absolute;
+  text-align: center;
+  width: 11.2rem;
+}
+
+.hero-SaveSafe h2{
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 6.2rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  width: 17rem;
+}
+
+.SaveSafe-Prototype-Button{
+  background: #D6FFF9;
+  border-radius: .5rem;
+  box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 12px;
+  margin-left: 5.6rem;
+  margin-top: 10.2rem;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  text-decoration: none;
+}
+
+/* ------------------ OVERVIEW SECTION ---------------------------------*/
+
+.Overview{
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+h1{
+  font-size: 20px;
+  padding: 3rem 0 3rem 1.5rem;
+}
+
+.role{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .8rem 1.2rem 1rem 1.5rem;
+}
+
+.Tools{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .8rem 1.2rem 1rem 1.5rem;
+}
+
+.Date{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .8rem 1.2rem 1rem 1.5rem;
+}
+
+.Skills{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .8rem 1.2rem 1rem 1.5rem;
+}
+
+.role-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  width: 80%;
+}
+
+.tools-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  width: 80%;
+}
+
+.date-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  width: 80%;
+}
+
+.skills-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.8rem;
+  padding-top: .6rem;
+  position: absolute;
+  text-align: left;
+  width: 75%;
+}
+
+/* ------------------ PROBLEM SECTION ---------------------------------*/
+
+.Problem{
+  background: #FFA796;
+  width: 100%;
+}
+
+.top-line-problem{
+  align-items: center;
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 0 1rem 1.5rem 2rem;
+}
+
+.problem-1{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: 0 5rem 1rem 6rem;
+}
+
+.problem-2{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 8.6rem 1rem 6rem;
+}
+
+.problem-3{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 7.8rem 1rem 6rem;
+}
+
+.problem-4{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 8.8rem 0 6rem;
+}
+
+.problem-5{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+}
+
+.problem-6{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+}
+
+.problem-7{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+}
+
+.problem-8{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+}
+
+.bottom-line-problem{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 1.5rem 1rem 0 2.8rem;
+}
+
+/* ------------------ SOLUTION SECTION ---------------------------------*/
+
+.SaveSafe-solution-image{
+  padding-top: 1.3rem;
+  width: 100%;
+}
+
+.Solution h1{
+  padding: 2.5rem 0 0 21.3rem;
+  position: absolute;
+  font-size: 20px;
+}
+
+.Solution p{
+  color: #000000;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 5.2rem 1.5rem 0 21.3rem;
+  position: absolute;
+}
+
+/* ------------------ PROCESS SECTION ---------------------------------*/
+
+.Process-List {
+  list-style: initial;
+}
+
+.Process-Section{
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.Process-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.77rem;
+  padding: 0 1.5rem 2rem 1.5rem;
+  width: 89%;
+}
+
+ .process-1{
+   display: inline-block;
+   font-family: Source Sans Pro;
+   font-size: 12px;
+   padding: 1.5rem 0 1rem 6rem;
+
+}
+
+.process-2{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: 1.5rem 6rem 1rem 11.4rem;
+  }
+
+.process-3{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 0 1rem 6rem;
+}
+
+.process-4{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: 1.5rem 6rem 1rem 10.8rem;
+}
+
+.process-5{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 0 1rem 6rem;
+}
+
+.process-6{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: 1.5rem 6rem 1rem 12.5rem;
+
+}
+
+.process-7{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 0 1rem 6rem;
+}
+
+.process-8{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding-left: 17.5%;
+  padding: 1.5rem 6rem 1rem 8.8rem;
+
+}
+
+.process-9{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 0 1rem 6rem;
+}
+
+.process-10{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding-left: 21.8%;
+  padding: 1.5rem 6rem 1rem 10.7rem;
+}
+
+.process-11{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  padding: .8rem 0 1.5rem 22rem;
+  padding: 1.5rem 6rem 1rem 6rem;
+}
+
+/* ------------------ USER SURVEYS SECTION---------------------------------*/
+
+.User-Surveys-Section{
+  background: #FFA796;
+  width: 100%;
+}
+
+.User-Surveys-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+/* ------------------ SWOT ANALYSIS SECTION---------------------------------*/
+
+.SWOT-Analysis-Section{
+  width: 100%;
+}
+
+
+.SWOT-Analysis-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+/* ------------------ PERSONAS SECTION ---------------------------------*/
+
+.Persona-Image-Section{
+  width: 100%;
+}
+
+.Personas-Section h1{
+  padding: 1rem 0 0 1.5rem;
+  position: absolute;
+}
+
+.Personas-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 4rem 0 0 1.5rem;
+  position: absolute;
+  width: 18.6rem;
+}
+
+.joe-persona-images{
+  height: 54rem;
+  padding: 1.3rem 1.5rem 0 1.5rem;
+}
+
+/* ------------------ USER STORIES SECTION ---------------------------------*/
+
+.User-Stories-Section{
+  background: #FFA796;
+  width: 100%;
+}
+
+.User-Stories-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 1.5rem 0 1.5rem;
+  width: 89%;
+}
+
+/* ------------------ USER FLOW SECTION ---------------------------------*/
+
+.User-Flows-Section{
+  width: 100%;
+}
+
+.User-Flows-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 1.5rem 0 1.5rem;
+  width: 89%;
+}
+
+.UserFlow-Sketches-Images{
+  padding: 1rem 1.5rem;
+  width: 89%;
+
+}
+
+.UserFlow-Digital-Images{
+  padding: 0 1.5rem 0 1.5rem;
+  width: 89%;
+}
+
+/* ------------------ WIREFRAME SECTION ---------------------------------*/
+
+.Wireframe-image{
+  padding-top: 1.3rem;
+  width: 100%;
+}
+
+.Wireframes-Section h1{
+  font-size: 20px;
+  padding: 2rem 0 0 21.7rem;
+  position: absolute;
+}
+
+.Wireframes-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 4.7rem 1.5rem 0 21.7rem;
+  position: absolute;
+  width: 14.5rem;
+}
+
+.Wireframe-Sketches-Images{
+height: 10rem;
+padding: 1.3rem 1.5rem;
+}
+
+.Wireframe-Digital-Images{
+height: 17.2rem;
+padding: 1.3rem 1.5rem;
+}
+
+/* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
+
+.Analysis-of-Test-Section{
+  background: #FFA796;
+  width: 100%;
+}
+
+.test-1{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .2rem 1rem 1rem 1.5rem;
+}
+
+.test-2{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 7.2rem 1rem 1rem 1.5rem;
+  position: absolute;
+}
+
+.test-3{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 15rem 1rem 1rem 1.5rem;
+  position: absolute;
+}
+
+.test-1-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  position: absolute;
+  width: 79.5%;
+}
+
+.test-2-info{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding-left: 5.5rem;
+  padding-top: 7rem;
+  position: absolute;
+  width: 79.5%;
+}
+
+.test-3-info{
+  width: 79.5%;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  display: inline-block;
+  position: absolute;
+  padding-top: 17rem;
+  line-height: 17px;
+}
+
+/* ------------------ MOCKUPS SECTIONS ---------------------------------*/
+
+.Mockup-Image{
+  padding-top: 1.3rem;
+  width: 100%;
+}
+
+.Mockup-Section h1{
+  font-size: 20px;
+  padding: 2rem 0 0 1.5rem;
+  position: absolute;
+}
+
+.Mockup-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 4.5rem 0 2rem 1.5rem;
+  position: absolute;
+  width: 17.8rem;
+}
+
+.Mockup-Image-Digital{
+  padding-top: 1.3rem;
+  width: 100%;
+}
+
+/* ------------------ BRANDING SECTION ---------------------------------*/
+
+.Branding-Section{
+  background: #ffffff;
+  width: 100%;
+}
+
+.Branding-Section p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 0 1.5rem;
+  width: 33.9rem;
+}
+
+.sketching-of-logo{
+  padding: 1.3rem 1.5rem;
+  width: 33.9rem;
+}
+
+.color-info{
+  padding: 1.3rem 1.5rem;
+  width: 33.9rem;
+}
+
+.Mobile-logo-digital{
+  padding: 2rem 7rem;
+}
+
+/* ------------------ TYPEFACE SECTION ---------------------------------*/
+
+.Typeface-Section{
+  background: #FFA796;
+  margin-bottom: 1.3rem;
+  width: 100%;
+}
+
+.Plantagenet-Cherokee-font-into{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 0 1.5rem;
+  width: 34rem;
+}
+
+.Plantagenet-Cherokee-font{
+  font-family: Plantagenet Cherokee;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 2rem 7.2rem;
+  width: 22.5rem;
+}
+
+.Ovo-font-info{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 0 1.5rem;
+  width: 34rem;
+}
+
+.Ovo-font{
+  font-family: Ovo;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 2rem 7.2rem;
+  width: 22.5rem;
+}
+
+/* ------------------ PROTOTYPE SECTION---------------------------------*/
+
+.Prototype-image{
+width: 100%;
+}
+
+.Prototype h1{
+  padding: 1rem 1.5rem 0 21.5rem;
+  position: absolute;
+  font-size: 20px;
+}
+
+.Prototype p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 3.4rem 1.5rem 0 21.5rem;
+  position: absolute;
+  width: 15rem;
+}
+
+/* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
+
+.test2-one{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .2rem 1rem 1rem 1.5rem;
+
+}
+
+.test2-two{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 8.3rem 1rem 1rem 1.5rem;
+  position: absolute;
+}
+
+.test2-three{
+font-family: Source Sans Pro;
+font-size: 12px;
+font-weight: 900;
+padding: 19.9rem 1rem 1rem 1.5rem;
+position: absolute;
+}
+
+.test2-one-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  position: absolute;
+  width: 29rem;
+}
+
+.test2-two-info{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding-left: 5.5rem;
+  padding-top: 8rem;
+  position: absolute;
+  width: 29rem;
+}
+
+.test2-three-info{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding-top: 22rem;
+  position: absolute;
+  width: 29rem;
+}
+
+/* ------------------ CONCLUSION SECTION ---------------------------------*/
+
+.Conclusion{
+  background: #FFA796;
+  width: 100%;
+}
+
+.Conclusion p{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 0 1.5rem;
+  width: 34.2rem;
+}
+
+/* ------------------ START OF MY JOURNEY PAGE ---------------------------------*/
+
+
+/* ------------------ MY JOURNEY CONTAINER ---------------------------------*/
+.container-journey{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 145.08px 85rem 19.0rem
+}
+
+.My-Journey-Image{
+  width: 100%;
+}
+
+.my-journey-h1{
+  padding: 5.3rem 0 5.3rem 3rem;
+  position: absolute;
+  width: 14.1rem;
+}
+
+.p-1 {
+  padding: 3rem 1.5rem 0 1.5rem;
+  font-size: 12px;
+  font-family: Source Sans Pro;
+  display: inline-block;
+line-height: 1.7rem;
+}
+
+.bold{
+  font-weight: 900;
+}

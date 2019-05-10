@@ -266,6 +266,7 @@ article{
   left: 12.5%;
   padding-top: 3rem;
   position: absolute;
+  top: 9rem;
 }
 
 .github-link{
@@ -274,6 +275,7 @@ article{
   left: 35%;
   padding-top: 3rem;
   position: absolute;
+  top: 9rem;
 }
 
 .facebook-link{
@@ -1067,11 +1069,100 @@ line-height: 1.7rem;
   font-weight: 900;
 }
 
+@media only screen and (min-width: 395px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  15rem 15.3rem 15.3rem 18rem;
+    grid-row-gap: 1.5rem;
+  }
 
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
+  .hero h1{
+    padding: 7% 0 0 15%;
+  }
+
+  .Save-Safe h2{
+    padding: 1rem 0 0 24rem;
+  }
+
+  .Save-Safe p{
+    padding: 3.6rem 1.5rem 0 20rem;
+  }
+
+  .Save-Safe h3{
+    color: #000000;
+    font-size: 12px;
+    padding: 7.4rem 0 0 20rem;
+    position: absolute;
+  }
+  .lets-talk-links h1{
+    padding: 3rem 0 0 16.2rem;
+  }
+
+  .email-link{
+    padding: 0 0 0 30%;
+  }
+}
+
+@media only screen and (min-width: 430px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  16.4rem 16.5rem 16.5rem 17rem;
+    grid-row-gap: 1.5rem;
+  }
+
+.logo{
+  height: 25.63px;
+}
+.hero h1{
+  padding: 7% 0 0 18%;
+}
+  .hero h2{
+    padding: 9.3rem 4.2rem 0;
+  }
+
+  .my-journey h2{
+    padding: 2.5rem;
+  }
+
+  .my-journey p{
+    padding: 6.5rem 2.5rem;
+  }
+
+  .my-life-button{
+    margin: 26% 0 0 13.5%;
+  }
+
+.Save-Safe h2{
+  padding: 1rem 0 0 28rem;
+}
+
+.Save-Safe p{
+  padding: 4rem 1.5rem 0 23.5rem;
+}
+
+.Save-Safe h3{
+  padding: 8.4rem 0 0 24.2rem;
+}
+
+.Case-Study-Button{
+  margin: 27% 1.5rem 0 75%;
+}
+
+.Prototype-Button{
+  margin: 27% 0 0 51%;
+}
+
+.lets-talk-links h1{
+  padding: 3rem 0 3rem 17.2rem;
+}
+.email-link{
+  padding-top: 30%;
+}
+}
+
+
 @media only screen and (min-width: 768px){
   .container {
     display: grid;
@@ -1101,12 +1192,11 @@ line-height: 1.7rem;
       width: 100%;
 
   }
-
   /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
 
   .my-journey h2{
     font-size: 30px;
-    padding: 6% 0 0 9.5%;
+    padding: 7% 0 0 12%;
   }
 
   .my-journey p{
@@ -1117,7 +1207,7 @@ line-height: 1.7rem;
 
   .My-Life-Button{
     font-size: 20px;
-    margin: 22% 0 0 14.5%;
+    margin: 27% 0 0 17.5%;
     padding:1.5rem;
     width: 11rem;
   }
@@ -1164,7 +1254,7 @@ line-height: 1.7rem;
 
   .email-link{
     font-size: 20px;
-    padding: 0 28%;
+    padding: 0 30%;
     }
 
   .linkedin-link{
@@ -1189,6 +1279,35 @@ line-height: 1.7rem;
   }
 }
 
+@media only screen and (min-width: 800px){
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows:  30.5rem 31rem 31rem 30rem;
+    grid-row-gap: 3rem;
+}
+
+.Save-Safe h2{
+  padding: 4rem 0 0 52rem;
+}
+
+.Save-Safe p{
+  padding: 9rem 0 0 42rem;
+}
+
+.Save-Safe h3{
+  padding: 17rem 0 0 45rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -1201,7 +1320,6 @@ line-height: 1.7rem;
 }
     /* ----------------------- HOME PAGE-------------------------*/
     /* -----------------------HERO SECTION -------------------------*/
-
 
     #mobile-header-img-container{
       height: 5rem;
@@ -1228,7 +1346,6 @@ line-height: 1.7rem;
     }
 
     /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
-
 
     .my-journey h2{
       font-size: 50px;

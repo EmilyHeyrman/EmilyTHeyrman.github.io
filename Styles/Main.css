@@ -125,7 +125,7 @@ article{
 .hero h1{
   font-size: 20px;
   height: auto;
-  line-height: 2.5rem;
+  line-height: 128%;
   padding: 7% 12%;
   position: absolute;
   text-align: center;
@@ -133,8 +133,8 @@ article{
 
 .hero h2{
   font-size: 12px;
-  line-height: 1.5rem;
-  padding: 8.3rem 4.2rem 0;
+  line-height: 128%;
+  padding: 22% 4% 0;
   position: absolute;
   text-align: center;
 }
@@ -149,7 +149,7 @@ article{
 
 .my-journey h2{
   font-size: 20px;
-  padding: 1.5rem;
+  padding: 5% 4%;
   position: absolute;
 }
 
@@ -157,7 +157,7 @@ article{
   color: #000000;
   font-size: 12px;
   line-height: 1.5rem;
-  padding: 5.5rem 1.5rem;
+  padding: 14% 4%;
   position: absolute;
   text-align: center;
 }
@@ -188,26 +188,22 @@ article{
 }
 
 .Save-Safe h2{
-  color: #000000;
   font-size: 20px;
-  padding: 1rem 0 0 23rem;
+  padding: 2% 0 0 60%;
   position: absolute;
-  width: 27%;
 }
 
 .Save-Safe p{
   font-size: 12px;
-  line-height: 1.5rem;
-  padding: 3.6rem 1.5rem 0 19.3rem;
+  line-height: 128%;
+  padding: 9% 0 0 52%;
   position: absolute;
   text-align: center;
-  width: 42%;
 }
 
 .Save-Safe h3{
-  color: #000000;
   font-size: 12px;
-  padding: 7.4rem 0 0 19rem;
+  padding: 19% 0 0 51%;
   position: absolute;
 }
 
@@ -235,7 +231,7 @@ article{
   cursor: pointer;
   font-family: Raleway;
   font-size: 12px;
-  margin: 26% 1.5rem 0 71%;
+  margin: 26% 0 0 72%;
   padding: 1rem 1.5rem;
   position: absolute;
   text-align: center;
@@ -248,8 +244,7 @@ article{
 .lets-talk-links h1{
   color: #000000;
   font-size: 20px;
-  padding: 3rem 14.2rem;
-  width: 9.1rem;
+  padding: 8% 0 7% 38%;
 }
 
 .email-link{
@@ -264,35 +259,31 @@ article{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
   left: 12.5%;
-  padding-top: 3rem;
+  padding-top: 12%;
   position: absolute;
-  top: 9rem;
 }
 
 .github-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
   left: 35%;
-  padding-top: 3rem;
+  padding-top: 12%;
   position: absolute;
-  top: 9rem;
 }
 
 .facebook-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
   left: 60%;
-  padding-top: 3rem;
+  padding-top: 12%;
   position: absolute;
-  top: 9rem;
 }
 
 .twittier-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
-  padding-top: 3rem;
+  padding-top: 12%;
   position: absolute;
-  top: 9rem;
   left: 83%;
 }
 
@@ -1069,7 +1060,7 @@ line-height: 1.7rem;
   font-weight: 900;
 }
 
-@media only screen and (min-width: 395px){
+@media only screen and (min-width: 395px) and (max-width: 500px){
   .container {
     display: grid;
     grid-template-columns: auto;
@@ -1082,7 +1073,7 @@ line-height: 1.7rem;
   }
 
   .Save-Safe h2{
-    padding: 1rem 0 0 24rem;
+    padding: 1.5% 0 0 59%;
   }
 
   .Save-Safe p{
@@ -1104,63 +1095,6 @@ line-height: 1.7rem;
   }
 }
 
-@media only screen and (min-width: 430px){
-  .container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows:  16.4rem 16.5rem 16.5rem 17rem;
-    grid-row-gap: 1.5rem;
-  }
-
-.logo{
-  height: 25.63px;
-}
-.hero h1{
-  padding: 7% 0 0 18%;
-}
-  .hero h2{
-    padding: 9.3rem 4.2rem 0;
-  }
-
-  .my-journey h2{
-    padding: 2.5rem;
-  }
-
-  .my-journey p{
-    padding: 6.5rem 2.5rem;
-  }
-
-  .my-life-button{
-    margin: 26% 0 0 13.5%;
-  }
-
-.Save-Safe h2{
-  padding: 1rem 0 0 28rem;
-}
-
-.Save-Safe p{
-  padding: 4rem 1.5rem 0 23.5rem;
-}
-
-.Save-Safe h3{
-  padding: 8.4rem 0 0 24.2rem;
-}
-
-.Case-Study-Button{
-  margin: 27% 1.5rem 0 75%;
-}
-
-.Prototype-Button{
-  margin: 27% 0 0 51%;
-}
-
-.lets-talk-links h1{
-  padding: 3rem 0 3rem 17.2rem;
-}
-.email-link{
-  padding-top: 30%;
-}
-}
 
 
 @media only screen and (min-width: 768px){

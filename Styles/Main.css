@@ -302,248 +302,6 @@ article{
   position: absolute;
   width: 100%;
 }
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-@media only screen and (min-width: 768px){
-  .container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows:  29rem 29.7rem 29.7rem 32rem;
-    grid-row-gap: 3rem;
-
-  }
-  /* ----------------------- HOME PAGE-------------------------*/
-  /* -----------------------HERO SECTION -------------------------*/
-
-
-  .logo{
-    height: 40px;
-  }
-
-  .hero h1{
-    font-size: 40px;
-    line-height: 5rem;
-    padding: 6% 0 0 0;
-      width: 100%;
-  }
-
-  .hero h2{
-    font-size: 20px;
-    line-height: 3rem;
-    padding: 18rem 0 0 0;
-      width: 100%;
-
-  }
-
-  /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
-
-  .my-journey h2{
-    font-size: 30px;
-    padding: 6% 0 0 9.5%;
-  }
-
-  .my-journey p{
-    font-size: 20px;
-    line-height: 3rem;
-    padding: 12rem 0 0 8rem;
-  }
-
-  .My-Life-Button{
-    font-size: 20px;
-    margin: 22% 0 0 14.5%;
-    padding:1.5rem;
-    width: 11rem;
-  }
-
-  /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
-
-  .Save-Safe h2{
-    font-size: 30px;
-    padding: 5rem 0 0 50rem;
-  }
-
-  .Save-Safe p{
-    font-size: 20px;
-    line-height: 3rem;
-    padding: 10rem 0 0 40rem;
-  }
-
-  .Save-Safe h3{
-    font-size: 20px;
-    padding: 17rem 0 0 42.5rem;
-  }
-
-  .Prototype-Button{
-    font-size: 20px;
-    margin: 28% 0 0 52%;
-    padding:1.5rem;
-    width: 11rem;
-  }
-
-  .Case-Study-Button{
-    font-size: 20px;
-    margin: 28% 0 0 76%;
-    padding:1.5rem;
-    width: 11rem;
-  }
-
-  /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
-
-  .lets-talk-links h1{
-    font-size: 30px;
-    padding: 5rem 30.6rem;
-    width: 14rem;
-  }
-
-  .email-link{
-    font-size: 20px;
-    padding: 0 28%;
-    }
-
-  .linkedin-link{
-    font: normal normal normal 50px/1 FontAwesome;
-    top:18rem;
-  }
-
-  .github-link{
-    font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
-
-  }
-
-  .facebook-link{
-    font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
-  }
-
-  .twittier-link{
-    font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
-  }
-
-
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-@media only screen and (min-width: 1025px){
-  .container {
-    display: flex
-    flex-direction: row;
-    grid-template-columns: auto;
-    grid-template-rows:  38.8rem 39.5rem 39.6rem 39rem;
-    grid-row-gap: 3.5rem;
-}
-    /* ----------------------- HOME PAGE-------------------------*/
-    /* -----------------------HERO SECTION -------------------------*/
-
-
-
-    #mobile-header-img-container{
-      height: 5rem;
-      }
-
-    #menu-icon{
-      display: none;
-    }
-
-    .logo{
-      height: 69px;
-    }
-
-    .hero h1{
-      font-size: 60px;
-      line-height: 8rem;
-      padding: 6% 0 0 0;
-      width: 100%;
-    }
-
-    .hero h2{
-      padding: 26% 0 0 0;
-      width: 100%;
-    }
-
-    /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
-
-
-    .my-journey h2{
-      font-size: 50px;
-      padding: 5% 0 0 3%;
-    }
-
-    .my-journey p{
-      font-size: 25px;
-padding-top: 15%;
-    }
-
-    .My-Life-Button{
-      font-size: 25px;
-      width: 15rem;
-    }
-
-    /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
-
-
-    .Save-Safe h2{
-      font-size: 50px;
-      padding-left: 65%;
-}
-
-    .Save-Safe p{
-      font-size: 25px;
-      padding: 12% 0 0 56%;
-    }
-
-    .Save-Safe h3{
-      font-size: 25px;
-      padding: 21% 0 0 60.5%;
-    }
-
-    .Prototype-Button{
-      font-size: 25px;
-      margin: 28% 0 0 58%;
-      width: 15rem;
-    }
-
-    .Case-Study-Button{
-      font-size: 25px;
-      margin: 28% 0 0 78%;
-      width: 15rem;
-    }
-
-    /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
-
-
-    .lets-talk-links h1{
-      font-size: 50px;
-      padding: 6% 0 6% 39%;
-      width: 23rem;
-    }
-
-    .email-link{
-      font-size: 30px;
-      }
-
-    .linkedin-link{
-      top:26rem;
-    }
-
-    .github-link{
-      top: 26rem;
-
-    }
-
-    .facebook-link{
-      top: 26rem;
-    }
-
-    .twittier-link{
-      top: 26rem;
-    }
-
-}
 
 
 /* ------------------CASE STUDY FOR SAVE SAFE MOBILE ---------------------------------*/
@@ -1307,4 +1065,240 @@ line-height: 1.7rem;
 
 .bold{
   font-weight: 900;
+}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (min-width: 768px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  29rem 29.7rem 29.7rem 32rem;
+    grid-row-gap: 3rem;
+  }
+  /* ----------------------- HOME PAGE-------------------------*/
+  /* -----------------------HERO SECTION -------------------------*/
+
+
+  .logo{
+    height: 40px;
+  }
+
+  .hero h1{
+    font-size: 40px;
+    line-height: 5rem;
+    padding: 6% 0 0 0;
+      width: 100%;
+  }
+
+  .hero h2{
+    font-size: 20px;
+    line-height: 3rem;
+    padding: 18rem 0 0 0;
+      width: 100%;
+
+  }
+
+  /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
+
+  .my-journey h2{
+    font-size: 30px;
+    padding: 6% 0 0 9.5%;
+  }
+
+  .my-journey p{
+    font-size: 20px;
+    line-height: 3rem;
+    padding: 12rem 0 0 8rem;
+  }
+
+  .My-Life-Button{
+    font-size: 20px;
+    margin: 22% 0 0 14.5%;
+    padding:1.5rem;
+    width: 11rem;
+  }
+
+  /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
+
+  .Save-Safe h2{
+    font-size: 30px;
+    padding: 5rem 0 0 50rem;
+  }
+
+  .Save-Safe p{
+    font-size: 20px;
+    line-height: 3rem;
+    padding: 10rem 0 0 40rem;
+  }
+
+  .Save-Safe h3{
+    font-size: 20px;
+    padding: 17rem 0 0 42.5rem;
+  }
+
+  .Prototype-Button{
+    font-size: 20px;
+    margin: 28% 0 0 52%;
+    padding:1.5rem;
+    width: 11rem;
+  }
+
+  .Case-Study-Button{
+    font-size: 20px;
+    margin: 28% 0 0 76%;
+    padding:1.5rem;
+    width: 11rem;
+  }
+
+  /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+  .lets-talk-links h1{
+    font-size: 30px;
+    padding: 5rem 30.6rem;
+    width: 14rem;
+  }
+
+  .email-link{
+    font-size: 20px;
+    padding: 0 28%;
+    }
+
+  .linkedin-link{
+    font: normal normal normal 50px/1 FontAwesome;
+    top:18rem;
+  }
+
+  .github-link{
+    font: normal normal normal 50px/1 FontAwesome;
+    top: 18rem;
+
+  }
+
+  .facebook-link{
+    font: normal normal normal 50px/1 FontAwesome;
+    top: 18rem;
+  }
+
+  .twittier-link{
+    font: normal normal normal 50px/1 FontAwesome;
+    top: 18rem;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media only screen and (min-width: 1025px){
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows:  38.8rem 39.5rem 39.6rem 39rem;
+    grid-row-gap: 3.5rem;
+}
+    /* ----------------------- HOME PAGE-------------------------*/
+    /* -----------------------HERO SECTION -------------------------*/
+
+
+    #mobile-header-img-container{
+      height: 5rem;
+      }
+
+    #menu-icon{
+      display: none;
+    }
+
+    .logo{
+      height: 69px;
+    }
+
+    .hero h1{
+      font-size: 60px;
+      line-height: 8rem;
+      padding: 6% 0 0 0;
+      width: 100%;
+    }
+
+    .hero h2{
+      padding: 26% 0 0 0;
+      width: 100%;
+    }
+
+    /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
+
+
+    .my-journey h2{
+      font-size: 50px;
+      padding: 5% 0 0 3%;
+    }
+
+    .my-journey p{
+      font-size: 25px;
+      padding-top: 15%;
+    }
+
+    .My-Life-Button{
+      font-size: 25px;
+      width: 15rem;
+    }
+
+    /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
+
+    .Save-Safe h2{
+      font-size: 50px;
+      padding-left: 65%;
+}
+
+    .Save-Safe p{
+      font-size: 25px;
+      padding: 12% 0 0 56%;
+    }
+
+    .Save-Safe h3{
+      font-size: 25px;
+      padding: 21% 0 0 60.5%;
+    }
+
+    .Prototype-Button{
+      font-size: 25px;
+      margin: 28% 0 0 58%;
+      width: 15rem;
+    }
+
+    .Case-Study-Button{
+      font-size: 25px;
+      margin: 28% 0 0 78%;
+      width: 15rem;
+    }
+
+    /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+    .lets-talk-links h1{
+      font-size: 50px;
+      padding: 6% 0 6% 39%;
+      width: 23rem;
+    }
+
+    .email-link{
+      font-size: 30px;
+      }
+
+    .linkedin-link{
+      top:26rem;
+    }
+
+    .github-link{
+      top: 26rem;
+    }
+
+    .facebook-link{
+      top: 26rem;
+    }
+
+    .twittier-link{
+      top: 26rem;
+    }
 }

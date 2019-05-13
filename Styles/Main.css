@@ -15,9 +15,9 @@ body {
 /* ----------------------- GRID -------------------------*/
 .container {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows:  14.3rem 14.5rem 14.5rem 19.0rem;
-  grid-row-gap: 1.3rem;
+  grid-template-columns: 1fr;
+  grid-template-rows:  18rem 17rem 17rem 18rem;
+
 }
 
 /* ----------------------- MOBILE NAV BAR -------------------------*/
@@ -63,6 +63,7 @@ article{
 
 #mobile-nav-container a{
   color: white;
+  font-family: Raleway;
   font-size: 20px;
   text-decoration: none;
 }
@@ -111,6 +112,11 @@ article{
 
 /* ----------------------- MOBILE LOGO -------------------------*/
 
+.hero{
+border-bottom: 13.5px solid white;
+
+}
+
 .logo{
   height: 17.63px;
   padding: 10px 15px;
@@ -118,7 +124,7 @@ article{
 }
 
 .image-feathers{
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -126,40 +132,49 @@ article{
   font-size: 20px;
   height: auto;
   line-height: 128%;
-  padding: 7% 12%;
+  padding: 2rem 0 0 0;
   position: absolute;
   text-align: center;
+  width: 100%;
 }
 
 .hero h2{
   font-size: 12px;
+  height: auto;
   line-height: 128%;
-  padding: 22% 4% 0;
+  padding: 10rem 0 0 0;
   position: absolute;
   text-align: center;
+  width: 100%;
+
 }
 
 /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
-
+.my-journey{
+  border-bottom: 13.5px solid white;
+}
 
 .journey-image{
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
 .my-journey h2{
   font-size: 20px;
-  padding: 5% 4%;
+  height: auto;
+  padding: 2rem 0 0 0;
   position: absolute;
+  text-align: center;
+  width: 44%;
 }
 
 .my-journey p{
-  color: #000000;
   font-size: 12px;
   line-height: 1.5rem;
-  padding: 14% 4%;
+  padding: 6rem 0 0 0;
   position: absolute;
   text-align: center;
+  width: 44%;
 }
 
 .My-Life-Button{
@@ -170,8 +185,8 @@ article{
   cursor: pointer;
   font-family: Raleway;
   font-size: 12px;
-  margin: 26% 0 0 12.5%;
-  padding: 1rem 1.5rem;
+  margin: 10.5rem 0 0 5.5rem;
+  padding: 1rem .5rem;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -179,32 +194,41 @@ article{
 }
 
 /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
-
-
+.Save-Safe{
+  border-bottom: 13.5px solid white;
+  background-color: #FFA796;
+}
 
 .Save-Safe-Image{
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: 58%;
 }
 
 .Save-Safe h2{
+  display: inline-block;
   font-size: 20px;
-  padding: 2% 0 0 60%;
+  padding: 2rem 0 0 0;
   position: absolute;
+  text-align: center;
+  width: 37%;
 }
 
 .Save-Safe p{
+  display: inline-block;
   font-size: 12px;
-  line-height: 128%;
-  padding: 9% 0 0 52%;
+  padding-top: 5rem;
   position: absolute;
   text-align: center;
+  width: 37%;
 }
 
 .Save-Safe h3{
+  display: inline-block;
   font-size: 12px;
-  padding: 19% 0 0 51%;
+  padding-top: 7.5rem;
   position: absolute;
+  text-align: center;
+  width: 37%;
 }
 
 .Prototype-Button{
@@ -215,8 +239,8 @@ article{
   cursor: pointer;
   font-family: Raleway;
   font-size: 12px;
-  margin: 26% 0 0 42%;
-  padding: 1rem 1.5rem;
+  margin: 11rem 0 0 -1rem;
+  padding: 1rem .5rem;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -231,8 +255,8 @@ article{
   cursor: pointer;
   font-family: Raleway;
   font-size: 12px;
-  margin: 26% 0 0 72%;
-  padding: 1rem 1.5rem;
+  margin: 11rem 0 0 7rem;
+  padding: 1rem .5rem;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -242,32 +266,36 @@ article{
 /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
 
 .lets-talk-links h1{
-  color: #000000;
   font-size: 20px;
-  padding: 8% 0 7% 38%;
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+  width: 100%;
 }
 
 .email-link{
   color: #000000;
   cursor: pointer;
   font-size: 12px;
-  padding: 0 26%;
+  position: absolute;
+  text-align: center;
   text-decoration: none;
+  width: 100%;
 }
 
 .linkedin-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
-  left: 12.5%;
-  padding-top: 12%;
+  padding-top: 5rem;
   position: absolute;
+  text-align: center;
+  width: 27%;
 }
 
 .github-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
   left: 35%;
-  padding-top: 12%;
+  padding-top: 5rem;
   position: absolute;
 }
 
@@ -275,16 +303,16 @@ article{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
   left: 60%;
-  padding-top: 12%;
+  padding-top: 5rem;
   position: absolute;
 }
 
 .twittier-link{
   color: #000000;
   font: normal normal normal 25px/1 FontAwesome;
-  padding-top: 12%;
-  position: absolute;
   left: 83%;
+  padding-top: 5rem;
+  position: absolute;
 }
 
 .footer{
@@ -295,7 +323,6 @@ article{
   position: absolute;
   width: 100%;
 }
-
 
 /* ------------------CASE STUDY FOR SAVE SAFE MOBILE ---------------------------------*/
 
@@ -324,7 +351,6 @@ article{
   /*-- Analysis of Test --*/44.5rem
   /*-- Conclusion --*/26.5rem
   /*-- Footer --*/19.0rem
-
   ;
 }
 
@@ -366,8 +392,6 @@ article{
   position: absolute;
   text-decoration: none;
 }
-
-
 
 /* ------------------ OVERVIEW SECTION ---------------------------------*/
 
@@ -576,7 +600,6 @@ h1{
    font-family: Source Sans Pro;
    font-size: 12px;
    padding: 1.5rem 0 1rem 6rem;
-
 }
 
 .process-2{
@@ -584,7 +607,7 @@ h1{
   font-family: Source Sans Pro;
   font-size: 12px;
   padding: 1.5rem 6rem 1rem 11.4rem;
-  }
+}
 
 .process-3{
   display: inline-block;
@@ -612,7 +635,6 @@ h1{
   font-family: Source Sans Pro;
   font-size: 12px;
   padding: 1.5rem 6rem 1rem 12.5rem;
-
 }
 
 .process-7{
@@ -628,7 +650,6 @@ h1{
   font-size: 12px;
   padding-left: 17.5%;
   padding: 1.5rem 6rem 1rem 8.8rem;
-
 }
 
 .process-9{
@@ -673,7 +694,6 @@ h1{
 .SWOT-Analysis-Section{
   width: 100%;
 }
-
 
 .SWOT-Analysis-Section p{
   font-family: Source Sans Pro;
@@ -770,13 +790,13 @@ h1{
 }
 
 .Wireframe-Sketches-Images{
-height: 10rem;
-padding: 1.3rem 1.5rem;
+  height: 10rem;
+  padding: 1.3rem 1.5rem;
 }
 
 .Wireframe-Digital-Images{
-height: 17.2rem;
-padding: 1.3rem 1.5rem;
+  height: 17.2rem;
+  padding: 1.3rem 1.5rem;
 }
 
 /* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
@@ -939,13 +959,13 @@ padding: 1.3rem 1.5rem;
 /* ------------------ PROTOTYPE SECTION---------------------------------*/
 
 .Prototype-image{
-width: 100%;
+  width: 100%;
 }
 
 .Prototype h1{
+  font-size: 20px;
   padding: 1rem 1.5rem 0 21.5rem;
   position: absolute;
-  font-size: 20px;
 }
 
 .Prototype p{
@@ -965,7 +985,6 @@ width: 100%;
   font-size: 12px;
   font-weight: 900;
   padding: .2rem 1rem 1rem 1.5rem;
-
 }
 
 .test2-two{
@@ -977,11 +996,11 @@ width: 100%;
 }
 
 .test2-three{
-font-family: Source Sans Pro;
-font-size: 12px;
-font-weight: 900;
-padding: 19.9rem 1rem 1rem 1.5rem;
-position: absolute;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 19.9rem 1rem 1rem 1.5rem;
+  position: absolute;
 }
 
 .test2-one-info{
@@ -1035,11 +1054,16 @@ position: absolute;
 .container-journey{
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 145.08px 85rem 19.0rem
+  grid-template-rows: 145px 850px 19.0rem
+}
+
+.hero-journey{
+  border-bottom: 13.5px solid white;
 }
 
 .My-Journey-Image{
   width: 100%;
+  height: 100%
 }
 
 .my-journey-h1{
@@ -1049,307 +1073,523 @@ position: absolute;
 }
 
 .p-1 {
-  padding: 3rem 1.5rem 0 1.5rem;
-  font-size: 12px;
-  font-family: Source Sans Pro;
   display: inline-block;
-line-height: 1.7rem;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.7rem;
+  padding: 3rem 1.5rem 0 1.5rem;
 }
 
 .bold{
   font-weight: 900;
 }
 
-@media only screen and (min-width: 395px) and (max-width: 500px){
+/* ------------------ START OF HOME PAGE MEDIA  ---------------------------------*/
+
+/* ------------------ MEDIA 479PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 479px){
+
   .container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:  15rem 15.3rem 15.3rem 18rem;
-    grid-row-gap: 1.5rem;
+    grid-template-rows:  23rem 22rem 22rem 23rem;
+  }
+
+  .hero{
+  border-bottom: 19.5px solid white;
+  }
+
+  .logo{
+    height: 24.63px;
   }
 
   .hero h1{
-    padding: 7% 0 0 15%;
+    font-size: 25px;
+    padding: 5rem 0 0 0;
+  }
+
+  .hero h2{
+    font-size: 13px;
+    padding: 13rem 0 0 0;
+  }
+  /* ----------------------- MEDIA 479PX MY STORY SECTION HOME PAGE-------------------------*/
+  .my-journey{
+    border-bottom: 19.5px solid white;
+  }
+
+  .my-journey h2{
+    font-size: 25px;
+    padding: 4rem 0 0 0;
+  }
+
+  .my-journey p{
+    font-size: 13px;
+    padding: 9rem 0 0 0;
+  }
+
+  .My-Life-Button{
+    font-size: 13px;
+    margin: 14.5rem 0 0 7.5rem;
+    width: 7.4rem;
+  }
+  /* ----------------------- MEDIA 479PX SAVE SAFE SECTION HOME PAGE-------------------------*/
+  .Save-Safe{
+    border-bottom: 19.5px solid white;
   }
 
   .Save-Safe h2{
-    padding: 1.5% 0 0 59%;
+    font-size: 25px;
+    padding: 3rem 0 0 0;
   }
 
   .Save-Safe p{
-    padding: 3.6rem 1.5rem 0 20rem;
+    font-size: 13px;
+    padding-top: 7.5rem;
   }
 
   .Save-Safe h3{
-    color: #000000;
-    font-size: 12px;
-    padding: 7.4rem 0 0 20rem;
-    position: absolute;
+    font-size: 13px;
+    padding-top: 10rem;
   }
+
+  .Prototype-Button{
+    font-size: 13px;
+    margin: 14rem 0 0 0;
+    width: 7.4rem;
+  }
+
+  .Case-Study-Button{
+    font-size: 13px;
+    margin: 14rem 0 0 9.5rem;
+    width: 7.4rem;
+  }
+
+  /* ----------------------- MEDIA 479PX BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
   .lets-talk-links h1{
-    padding: 3rem 0 0 16.2rem;
+    font-size: 25px;
+    padding: 4rem 0 5rem 0;
   }
 
   .email-link{
-    padding: 0 0 0 30%;
+    font-size: 13px;
+  }
+
+  .linkedin-link{
+    font: normal normal normal 31px/1 FontAwesome;
+  }
+
+  .github-link{
+    font: normal normal normal 31px/1 FontAwesome;
+
+  }
+
+  .facebook-link{
+    font: normal normal normal 31px/1 FontAwesome;
+  }
+
+  .twittier-link{
+    font: normal normal normal 31px/1 FontAwesome;
   }
 }
+/* ------------------ MEDIA 579PX  -----------------------------------------------*/
 
-
-
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 579px){
   .container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:  29rem 29.7rem 29.7rem 32rem;
-    grid-row-gap: 3rem;
+    grid-template-rows:  28rem 27rem 27rem 28rem;
   }
-  /* ----------------------- HOME PAGE-------------------------*/
-  /* -----------------------HERO SECTION -------------------------*/
-
 
   .logo{
-    height: 40px;
+    height: 30.63px;
+  }
+
+  .hero h1{
+    padding: 6rem 0 0 0;
+  }
+
+  .hero h2{
+    padding: 16rem 0 0 0;
+  }
+  /* ----------------------- MEDIA 579PX MY STORY SECTION HOME PAGE-------------------------*/
+
+  .my-journey h2{
+    padding: 5rem 0 0 0;
+  }
+
+  .my-journey p{
+    padding: 11rem 0 0 0;
+  }
+
+  .My-Life-Button{
+    margin: 17.5rem 0 0 8.5rem;
+    width: 10.4rem;
+  }
+  /* ----------------------- MEDIA 579PX SAVE SAFE SECTION HOME PAGE-------------------------*/
+
+  .Save-Safe h2{
+    padding: 4rem 0 0 0;
+  }
+
+  .Save-Safe p{
+    padding-top: 9.5rem;
+  }
+
+  .Save-Safe h3{
+    padding-top: 12rem;
+  }
+
+  .Prototype-Button{
+    margin: 17rem 0 0 -2rem;
+    width: 10.4rem;
+  }
+
+  .Case-Study-Button{
+    margin: 17rem 0 0 11.5rem;
+    width: 10.4rem;
+  }
+
+  /* ----------------------- MEDIA 579PX BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+  .lets-talk-links h1{
+    padding: 5rem 0 6rem 0;
+  }
+
+  .linkedin-link{
+    padding-top: 7rem;
+  }
+
+  .github-link{
+    padding-top: 7rem;
+  }
+
+  .facebook-link{
+    padding-top: 7rem;
+  }
+
+  .twittier-link{
+    padding-top: 7rem;
+  }
+}
+/* ------------------ MEDIA 679PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 679px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  33rem 32rem 32rem 33rem;
+  }
+
+  .hero{
+  border-bottom: 25px solid white;
+  }
+
+  .logo{
+    height: 40.63px;
+  }
+
+  .hero h1{
+    font-size: 35px;
+    padding: 8rem 0 0 0;
+  }
+
+  .hero h2{
+    font-size: 17px;
+    padding: 20rem 0 0 0;
+  }
+  /* ----------------------- MEDIA 679PX MY STORY SECTION HOME PAGE-------------------------*/
+
+  .my-journey{
+    border-bottom: 25px solid white;
+  }
+
+  .my-journey h2{
+    font-size: 35px;
+  }
+
+  .my-journey p{
+    line-height: 2.5rem;
+    font-size: 17px;
+    padding: 13rem 0 0 0;
+  }
+
+  .My-Life-Button{
+    font-size: 17px;
+    margin: 21.5rem 0 0 9rem;
+  }
+  /* ----------------------- MEDIA 679PX SAVE SAFE SECTION HOME PAGE-------------------------*/
+
+.Save-Safe{
+    border-bottom: 25px solid white;
+}
+
+  .Save-Safe h2{
+    font-size: 35px;
+  }
+
+  .Save-Safe p{
+    font-size: 17px;
+    padding-top: 12rem;
+  }
+
+  .Save-Safe h3{
+    font-size: 17px;
+    padding-top: 15rem;
+  }
+
+  .Prototype-Button{
+    font-size: 17px;
+    margin: 21.5rem 0 0 0.5rem;
+  }
+
+  .Case-Study-Button{
+    font-size: 17px;
+    margin: 21.5rem 0 0 13rem;
+  }
+
+  /* ----------------------- MEDIA 679PX BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+  .lets-talk-links h1{
+    font-size: 35px;
+    padding: 7rem 0 6rem 0;
+  }
+
+.email-link{
+  font-size: 17px;
+}
+
+  .linkedin-link{
+    padding-top: 8rem;
+  }
+
+  .github-link{
+    padding-top: 8rem;
+
+  }
+
+  .facebook-link{
+    padding-top: 8rem;
+  }
+
+  .twittier-link{
+    padding-top: 8rem;
+  }
+}
+
+/* ------------------ MEDIA 779PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 779px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  38rem 37rem 37rem 38rem;
+  }
+  .logo{
+    height: 40.63px;
   }
 
   .hero h1{
     font-size: 40px;
-    line-height: 5rem;
-    padding: 6% 0 0 0;
-      width: 100%;
+    padding: 9rem 0 0 0;
   }
 
   .hero h2{
     font-size: 20px;
-    line-height: 3rem;
-    padding: 18rem 0 0 0;
-      width: 100%;
-
+    padding: 22rem 0 0 0;
   }
-  /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
+  /* ----------------------- MEDIA 779PX MY STORY SECTION HOME PAGE-------------------------*/
 
   .my-journey h2{
-    font-size: 30px;
-    padding: 7% 0 0 12%;
+    font-size: 40px;
+    padding: 6rem 0 0 0;
   }
 
   .my-journey p{
     font-size: 20px;
     line-height: 3rem;
-    padding: 12rem 0 0 8rem;
+    padding: 14rem 0 0 0;
   }
 
   .My-Life-Button{
     font-size: 20px;
-    margin: 27% 0 0 17.5%;
-    padding:1.5rem;
-    width: 11rem;
+    margin: 25.5rem 0 0 10.5rem;
+    padding: 1.5rem .5rem;
+    width: 12.4rem;
   }
 
-  /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
+  /* ----------------------- MEDIA 779PX SAVE SAFE SECTION HOME PAGE-------------------------*/
 
   .Save-Safe h2{
-    font-size: 30px;
-    padding: 5rem 0 0 50rem;
+    font-size: 40px;
+    padding: 5rem 0 0 0;
   }
 
   .Save-Safe p{
     font-size: 20px;
-    line-height: 3rem;
-    padding: 10rem 0 0 40rem;
+    padding-top: 12.5rem;
   }
 
   .Save-Safe h3{
     font-size: 20px;
-    padding: 17rem 0 0 42.5rem;
+    padding-top: 16rem;
   }
 
   .Prototype-Button{
     font-size: 20px;
-    margin: 28% 0 0 52%;
-    padding:1.5rem;
-    width: 11rem;
+    margin: 23rem 0 0 -1rem;
+    padding: 1.5rem .5rem;
+    width: 12.4rem;
   }
 
   .Case-Study-Button{
     font-size: 20px;
-    margin: 28% 0 0 76%;
-    padding:1.5rem;
-    width: 11rem;
+    margin: 23rem 0 0 16.5rem;
+    padding: 1.5rem .5rem;
+    width: 12.4rem;
   }
 
-  /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+  /* ----------------------- MEDIA 779PX BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
 
   .lets-talk-links h1{
-    font-size: 30px;
-    padding: 5rem 30.6rem;
-    width: 14rem;
+    font-size: 40px;
+    padding: 5rem 0 6rem 0;
   }
 
   .email-link{
     font-size: 20px;
-    padding: 0 30%;
-    }
+  }
 
   .linkedin-link{
     font: normal normal normal 50px/1 FontAwesome;
-    top:18rem;
+    padding-top: 10rem;
   }
 
   .github-link{
     font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
-
+    padding-top: 10rem;
   }
 
   .facebook-link{
     font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
+    padding-top: 10rem;
   }
 
   .twittier-link{
     font: normal normal normal 50px/1 FontAwesome;
-    top: 18rem;
+    padding-top: 10rem;
+  }
+  }
+
+  /* ------------------ MEDIA 1059PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 1059px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  51rem 50rem 50rem 51rem;
+  }
+  .hero{
+    border-bottom: 35px solid white;
+  }
+
+  .logo{
+    height: 50.63px;
+  }
+
+  .hero h1{
+    padding: 12rem 0 0 0;
+  }
+
+  .hero h2{
+    padding: 28rem 0 0 0;
+  }
+  /* ----------------------- MEDIA 1059PX MY STORY SECTION HOME PAGE-------------------------*/
+
+  .my-journey{
+    border-bottom: 35px solid white;
+  }
+
+  .my-journey h2{
+    padding: 10rem 0 0 0;
+  }
+
+  .my-journey p{
+    padding: 20rem 0 0 0;
+  }
+
+  .My-Life-Button{
+    margin: 33.5rem 0 0 16rem;
+  }
+  /* ----------------------- MEDIA 1059PX SAVE SAFE SECTION HOME PAGE-------------------------*/
+  .Save-Safe{
+    border-bottom: 35px solid white;
+  }
+
+  .Save-Safe h2{
+    padding: 7rem 0 0 0;
+  }
+
+  .Save-Safe p{
+    padding-top: 17.5rem;
+  }
+
+  .Save-Safe h3{
+    padding-top: 24rem;
+  }
+
+  .Prototype-Button{
+    margin: 33rem 0 0 4rem;
+
+  }
+
+  .Case-Study-Button{
+    margin: 33rem 0 0 22.5rem;
+  }
+
+  /* ----------------------- MEDIA 1059PX BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+
+  .lets-talk-links h1{
+    padding: 10rem 0 8rem 0;
+  }
+
+  .email-link{
+    font-size: 20px;
+  }
+
+  .linkedin-link{
+    padding-top: 15rem;
+  }
+
+  .github-link{
+    padding-top: 15rem;
+  }
+
+  .facebook-link{
+    padding-top: 15rem;
+  }
+
+  .twittier-link{
+    padding-top: 15rem;
+  }
+
+  /* ------------------ MEDIA 1200PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  60rem 59rem 59rem 60rem;
   }
 }
 
-@media only screen and (min-width: 800px){
+/* ------------------ MEDIA 1400PX  -----------------------------------------------*/
+
+@media only screen and (min-width: 1400px){
   .container {
+    display: grid;
     grid-template-columns: auto;
-    grid-template-rows:  30.5rem 31rem 31rem 30rem;
-    grid-row-gap: 3rem;
-}
-
-.Save-Safe h2{
-  padding: 4rem 0 0 52rem;
-}
-
-.Save-Safe p{
-  padding: 9rem 0 0 42rem;
-}
-
-.Save-Safe h3{
-  padding: 17rem 0 0 45rem;
-}
-}
-
-
-
-
-
-
-
-
-
-
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-@media only screen and (min-width: 1025px){
-  .container {
-    grid-template-columns: auto;
-    grid-template-rows:  38.8rem 39.5rem 39.6rem 39rem;
-    grid-row-gap: 3.5rem;
-}
-    /* ----------------------- HOME PAGE-------------------------*/
-    /* -----------------------HERO SECTION -------------------------*/
-
-    #mobile-header-img-container{
-      height: 5rem;
-      }
-
-    #menu-icon{
-      display: none;
-    }
-
-    .logo{
-      height: 69px;
-    }
-
-    .hero h1{
-      font-size: 60px;
-      line-height: 8rem;
-      padding: 6% 0 0 0;
-      width: 100%;
-    }
-
-    .hero h2{
-      padding: 26% 0 0 0;
-      width: 100%;
-    }
-
-    /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
-
-    .my-journey h2{
-      font-size: 50px;
-      padding: 5% 0 0 3%;
-    }
-
-    .my-journey p{
-      font-size: 25px;
-      padding-top: 15%;
-    }
-
-    .My-Life-Button{
-      font-size: 25px;
-      width: 15rem;
-    }
-
-    /* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
-
-    .Save-Safe h2{
-      font-size: 50px;
-      padding-left: 65%;
-}
-
-    .Save-Safe p{
-      font-size: 25px;
-      padding: 12% 0 0 56%;
-    }
-
-    .Save-Safe h3{
-      font-size: 25px;
-      padding: 21% 0 0 60.5%;
-    }
-
-    .Prototype-Button{
-      font-size: 25px;
-      margin: 28% 0 0 58%;
-      width: 15rem;
-    }
-
-    .Case-Study-Button{
-      font-size: 25px;
-      margin: 28% 0 0 78%;
-      width: 15rem;
-    }
-
-    /* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
-
-    .lets-talk-links h1{
-      font-size: 50px;
-      padding: 6% 0 6% 39%;
-      width: 23rem;
-    }
-
-    .email-link{
-      font-size: 30px;
-      }
-
-    .linkedin-link{
-      top:26rem;
-    }
-
-    .github-link{
-      top: 26rem;
-    }
-
-    .facebook-link{
-      top: 26rem;
-    }
-
-    .twittier-link{
-      top: 26rem;
-    }
+    grid-template-rows:  65rem 64rem 64rem 65rem;
+  }
 }

@@ -152,10 +152,7 @@ border-bottom: 13.5px solid white;
 /* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
 .my-journey{
   border-bottom: 13.5px solid white;
-}
-
-.journey-image{
-  height: 100%;
+  background-image:url(images/SummerAndMe.jpg);
   width: 100%;
 }
 

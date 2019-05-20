@@ -735,7 +735,7 @@ p{
   padding: 4vw 4vw;
 }
 
-/* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
+/* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
 
 .Analysis-of-Test-Section{
   background: #FFA796;
@@ -795,7 +795,7 @@ p{
   width: 79.5%;
 }
 
-/* ------------------ MOCKUPS SECTIONS -----------------------------------------*/
+/* ------------------ MOCKUPS SECTIONS ----------------------------------------*/
 
 .Mockup-Image{
   padding-top: 4vw;
@@ -822,7 +822,7 @@ p{
   width: 100%;
 }
 
-/* ------------------ BRANDING SECTION -----------------------------------------*/
+/* ------------------ BRANDING SECTION ----------------------------------------*/
 
 .Branding-Section{
   background: #ffffff;
@@ -844,7 +844,7 @@ p{
   width: 65%;
 }
 
-/* ------------------ TYPEFACE SECTION -----------------------------------------*/
+/* ------------------ TYPEFACE SECTION ----------------------------------------*/
 
 .Typeface-Section{
   background: #FFA796;
@@ -868,7 +868,7 @@ p{
   width: 40%;
 }
 
-/* ------------------ PROTOTYPE SECTION-----------------------------------------*/
+/* ------------------ PROTOTYPE SECTION----------------------------------------*/
 
 .Prototype-image{
   width: 100%;
@@ -889,7 +889,7 @@ p{
   width: 38%;
 }
 
-/* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
+/* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
 
 .test2-one{
   display: inline-block;
@@ -944,7 +944,7 @@ p{
   width: 79.5%;
 }
 
-/* ------------------ CONCLUSION SECTION ---------------------------------------*/
+/* ------------------ CONCLUSION SECTION --------------------------------------*/
 
 .Conclusion{
   background: #FFA796;
@@ -959,10 +959,10 @@ p{
   width: 91%;
 }
 
-/* ------------------ START OF MY JOURNEY PAGE ---------------------------------*/
+/* ------------------ START OF MY JOURNEY PAGE --------------------------------*/
 
 
-/* ------------------ MY JOURNEY CONTAINER -------------------------------------*/
+/* ------------------ MY JOURNEY CONTAINER ------------------------------------*/
 .container-journey{
   display: grid;
   grid-template-columns: auto;
@@ -1000,7 +1000,7 @@ p{
 }
 
 
-/* ------------------ Media Quiry for Home Page -------------------------------*/
+/* ------------------ Media Quiry for Home Page ------------------------------*/
 
 @media (min-width: 768px) {
 

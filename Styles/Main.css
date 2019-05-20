@@ -1,6 +1,6 @@
-/* ----------------------- MOBILE DESIGN -------------------------------------*/
+/* ----------------------- MOBILE DESIGN ---------------------------------------*/
 
-/* ----------------------- HOME PAGE -----------------------------------------*/
+/* ----------------------- HOME PAGE -------------------------------------------*/
 
 html {
   color: #000000;
@@ -8,13 +8,13 @@ html {
   font-size: 10px;
 }
 
-/* ----------------------- BODY COLOR OF HTML BACKGROUND ---------------------*/
+/* ----------------------- BODY COLOR OF HTML BACKGROUND -----------------------*/
 
 body {
   background-color: #ffffff;
 }
 
-/* ----------------------- GRID ----------------------------------------------*/
+/* ----------------------- GRID ------------------------------------------------*/
 
 .container {
   display: grid;
@@ -22,7 +22,7 @@ body {
   grid-template-rows: 5.7rem 42vw 42vw 42vw 42vw;
 }
 
-/* ----------------------- MOBILE / DESKTOP NAV BAR ---------------------------*/
+/* ----------------------- MOBILE / DESKTOP NAV BAR ----------------------------*/
 
 /* header */
 
@@ -38,8 +38,8 @@ body {
   background-color: #FFA796;
   list-style: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
 }
 
 .header li a {
@@ -139,7 +139,7 @@ body {
   top: 0;
 }
 
-/* ----------------------- MENU BAR -------------------------*/
+/* ----------------------- MENU BAR --------------------------------------------*/
 
 .menu {
   background-color: #FFA796;
@@ -151,13 +151,13 @@ body {
   background-color: #000000;
 }
 
-/* ----------------------- HERO SECTION HOME PAGE-------------------------*/
+/* ----------------------- HERO SECTION HOME PAGE-------------------------------*/
 
-/* ----------------------- MOBILE LOGO -------------------------*/
+/* ----------------------- MOBILE LOGO -----------------------------------------*/
 
 .hero{
-border-bottom: 3.5vw solid white;
-width: 100%;
+  border-bottom: 3.5vw solid white;
+  width: 100%;
 }
 
 .logo{
@@ -196,7 +196,7 @@ width: 100%;
   width: 100%;
 }
 
-/* ----------------------- MY STORY SECTION HOME PAGE-------------------------*/
+/* ----------------------- MY STORY SECTION HOME PAGE---------------------------*/
 
 .my-journey{
   background-image:url(../images/SummerAndMe.jpg);
@@ -207,10 +207,10 @@ width: 100%;
 }
 
 .my-journey p, h2{
+  font-family: Montserrat;
   padding: 5vw 0 0 0;
   text-align: center;
   width:49%;
-  font-family: Montserrat;
 }
 
 .my-journey h2{
@@ -221,7 +221,6 @@ width: 100%;
   font-size: 2.5vw;
   line-height: 5vw;
   padding-bottom: 3vw;
-
 }
 
 .My-Life-Button{
@@ -241,7 +240,7 @@ width: 100%;
 }
 
 
-/* ----------------------- SAVE SAFE SECTION HOME PAGE-------------------------*/
+/* ----------------------- SAVE SAFE SECTION HOME PAGE--------------------------*/
 .Save-Safe{
   background-color: #FFA796;
   background-image:url(../images/Save-Safe-Section-Image.png);
@@ -261,12 +260,11 @@ width: 100%;
 }
 
 .Save-Safe p{
+  font-family: Montserrat;
   font-size: 2.5vw;
   line-height: 4.3vw;
   padding: 4vw 0 0 63vw;
   width: 24%;
-  font-family: Montserrat;
-
 }
 
 .Save-Safe h3{
@@ -308,7 +306,7 @@ width: 100%;
   width: 14%;
 }
 
-/* ----------------------- BOTTOM CONTACT SECTION HOME PAGE -------------------------*/
+/* ----------------------- BOTTOM CONTACT SECTION HOME PAGE --------------------*/
 
 .lets-talk-links h1{
   font-size: 4vw;
@@ -360,9 +358,9 @@ width: 100%;
 }
 
 
-/* ------------------CASE STUDY FOR SAVE SAFE MOBILE ---------------------------------*/
+/* ------------------CASE STUDY FOR SAVE SAFE MOBILE ---------------------------*/
 
-/* ------------------GRID FOR CASE STUDY SAVE SAFE ---------------------------------*/
+/* ------------------GRID FOR CASE STUDY SAVE SAFE -----------------------------*/
 
 .container-SaveSafe{
   display: grid;
@@ -391,7 +389,7 @@ width: 100%;
   ;
 }
 
-/* ------------------HERO SECTION FOR CASE STUDY SAVE SAFE ---------------------------------*/
+/* ------------------HERO SECTION FOR CASE STUDY SAVE SAFE ---------------------*/
 
 h1{
   font-size: 4vw;
@@ -430,23 +428,23 @@ p{
 }
 
 .SaveSafe-Prototype-Button{
-    background-color: #D6FFF9;
-    border: white 2px solid ;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: #000000;
-    font-family: Raleway;
-    font-size: 2vw;
-    line-height: 4.3vw;
-    position: absolute;
-    right: 67.5vw;
-    text-align: center;
-    text-decoration: none;
-    -webkit-border-radius: .5vw;
-    width: 14%;
-    margin-top: 29vw;
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 29vw;
+  position: absolute;
+  right: 67.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
 }
 
-/* ------------------ OVERVIEW SECTION ---------------------------------*/
+/* ------------------ OVERVIEW SECTION -----------------------------------------*/
 
 .Overview{
   background-color: #FFFFFF;
@@ -465,26 +463,24 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  width: 80%;
   padding-left: 5vw;
+  width: 80%;
 }
 
 .tools{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  width: 80%;
   padding-left: 4.3vw;
-
+  width: 80%;
 }
 
 .date{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  width: 80%;
   padding-left: 5vw;
-
+  width: 80%;
 }
 
 .skills-info{
@@ -492,19 +488,18 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 4vw;
+  padding-left: 4.5vw;
   position: absolute;
   text-align: left;
   width: 75%;
-  padding-left: 4.5vw;
-
 }
 
-/* ------------------ PROBLEM SECTION ---------------------------------*/
+/* ------------------ PROBLEM SECTION ------------------------------------------*/
 
 .Problem{
   background: #FFA796;
-  width: 100%;
   border-bottom: 3.5vw solid white;
+  width: 100%;
 }
 
 .top-line-problem{
@@ -519,11 +514,11 @@ p{
 }
 
 .ProblemLine-1{
-    color: #000000;
-    display: inline-block;
-    font-family: Source Sans Pro;
-    font-size: 2vw;
-    padding-left: 26vw;
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  padding-left: 26vw;
 }
 
 .problem-2{
@@ -566,7 +561,7 @@ p{
   width: 65%;
 }
 
-/* ------------------ SOLUTION SECTION ---------------------------------*/
+/* ------------------ SOLUTION SECTION -----------------------------------------*/
 .Solution{
   background-image:url(../images/SolutionPhotoSection.jpg);
   background-size: 100%;
@@ -590,7 +585,7 @@ p{
   padding: 14vw 0 0 58vw;
 }
 
-/* ------------------ PROCESS SECTION ---------------------------------*/
+/* ------------------ PROCESS SECTION ------------------------------------------*/
 
 .Process-List {
   list-style: initial;
@@ -601,11 +596,11 @@ p{
   width: 100%;
 }
 
- .process-1{
-   display: inline-block;
-   font-family: Source Sans Pro;
-   font-size: 2vw;
-   padding: 4vw 0 0 26vw;
+.process-1{
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  padding: 4vw 0 0 26vw;
 }
 
 .process-2{
@@ -642,23 +637,23 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   padding-left: 21.8%;
-padding: 0 11vw 0 23vw;
+  padding: 0 11vw 0 23vw;
 }
 
-/* ------------------ USER SURVEYS SECTION---------------------------------*/
+/* ------------------ USER SURVEYS SECTION--------------------------------------*/
 
 .User-Surveys-Section{
   background: #FFA796;
   width: 100%;
 }
 
-/* ------------------ SWOT ANALYSIS SECTION---------------------------------*/
+/* ------------------ SWOT ANALYSIS SECTION-------------------------------------*/
 
 .SWOT-Analysis-Section{
   width: 100%;
 }
 
-/* ------------------ PERSONAS SECTION ---------------------------------*/
+/* ------------------ PERSONAS SECTION -----------------------------------------*/
 
 .Persona-Image-Section{
   width: 100%;
@@ -685,14 +680,14 @@ padding: 0 11vw 0 23vw;
   width: 92%;
 }
 
-/* ------------------ USER STORIES SECTION ---------------------------------*/
+/* ------------------ USER STORIES SECTION -------------------------------------*/
 
 .User-Stories-Section{
   background: #FFA796;
   width: 100%;
 }
 
-/* ------------------ USER FLOW SECTION ---------------------------------*/
+/* ------------------ USER FLOW SECTION ----------------------------------------*/
 
 .User-Flows-Section{
   width: 100%;
@@ -701,7 +696,6 @@ padding: 0 11vw 0 23vw;
 .UserFlow-Sketches-Images{
   padding: 5.3vw 5.3vw;
   width: 89%;
-
 }
 
 .UserFlow-Digital-Images{
@@ -709,7 +703,7 @@ padding: 0 11vw 0 23vw;
   width: 89%;
 }
 
-/* ------------------ WIREFRAME SECTION ---------------------------------*/
+/* ------------------ WIREFRAME SECTION ----------------------------------------*/
 
 .Wireframe-image{
   width: 100%;
@@ -727,8 +721,8 @@ padding: 0 11vw 0 23vw;
   line-height: 3.5vw;
   padding: 14vw 0 0 58vw;
   position: absolute;
-  width: 40%;
   text-align: left;
+  width: 40%;
 }
 
 .Wireframe-Sketches-Images{
@@ -792,16 +786,16 @@ padding: 0 11vw 0 23vw;
 }
 
 .test-3-info{
-  width: 79.5%;
+  display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  display: inline-block;
   position: absolute;
   padding-top: 29vw;
+  width: 79.5%;
 }
 
-/* ------------------ MOCKUPS SECTIONS ---------------------------------*/
+/* ------------------ MOCKUPS SECTIONS -----------------------------------------*/
 
 .Mockup-Image{
   padding-top: 4vw;
@@ -809,9 +803,9 @@ padding: 0 11vw 0 23vw;
 }
 
 .Mockup-Section h1{
-    font-size: 4vw;
-    padding: 9vw 0 4vw 4vw;
-    position: absolute;
+  font-size: 4vw;
+  padding: 9vw 0 4vw 4vw;
+  position: absolute;
 }
 
 .Mockup-Section p{
@@ -828,7 +822,7 @@ padding: 0 11vw 0 23vw;
   width: 100%;
 }
 
-/* ------------------ BRANDING SECTION ---------------------------------*/
+/* ------------------ BRANDING SECTION -----------------------------------------*/
 
 .Branding-Section{
   background: #ffffff;
@@ -850,12 +844,12 @@ padding: 0 11vw 0 23vw;
   width: 65%;
 }
 
-/* ------------------ TYPEFACE SECTION ---------------------------------*/
+/* ------------------ TYPEFACE SECTION -----------------------------------------*/
 
 .Typeface-Section{
   background: #FFA796;
-  width: 100%;
   border-bottom: 3.5vw solid white;
+  width: 100%;
 }
 
 .Plantagenet-Cherokee-font{
@@ -874,7 +868,7 @@ padding: 0 11vw 0 23vw;
   width: 40%;
 }
 
-/* ------------------ PROTOTYPE SECTION---------------------------------*/
+/* ------------------ PROTOTYPE SECTION-----------------------------------------*/
 
 .Prototype-image{
   width: 100%;
@@ -890,9 +884,9 @@ padding: 0 11vw 0 23vw;
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
+  padding: 17vw 0 0 58vw;
   position: absolute;
   width: 38%;
-  padding: 17vw 0 0 58vw;
 }
 
 /* ------------------ ANALYSIS OF TEST SECTION ---------------------------------*/
@@ -927,7 +921,7 @@ padding: 0 11vw 0 23vw;
   font-size: 2vw;
   line-height: 3.5vw;
   position: absolute;
-width: 79.5%;
+  width: 79.5%;
 }
 
 .test2-two-info{
@@ -950,7 +944,7 @@ width: 79.5%;
   width: 79.5%;
 }
 
-/* ------------------ CONCLUSION SECTION ---------------------------------*/
+/* ------------------ CONCLUSION SECTION ---------------------------------------*/
 
 .Conclusion{
   background: #FFA796;
@@ -968,7 +962,7 @@ width: 79.5%;
 /* ------------------ START OF MY JOURNEY PAGE ---------------------------------*/
 
 
-/* ------------------ MY JOURNEY CONTAINER ---------------------------------*/
+/* ------------------ MY JOURNEY CONTAINER -------------------------------------*/
 .container-journey{
   display: grid;
   grid-template-columns: auto;
@@ -994,7 +988,7 @@ width: 79.5%;
 .p-1 {
   display: inline-block;
   font-family: Source Sans Pro;
-font-size: 2.5vw;
+  font-size: 2.5vw;
   line-height: 4vw;
   padding: 5vw 5vw 0 5vw;
   width: 90%;
@@ -1006,22 +1000,25 @@ font-size: 2.5vw;
 }
 
 
-/* ------------------ Media Quiry for Home Page ------------------------------*/
+/* ------------------ Media Quiry for Home Page -------------------------------*/
 
 @media (min-width: 768px) {
 
-  .header li {
-    float: left;
+.header li {
+  float: left;
   }
-  .header li a {
-    padding: 20px 30px;
+
+.header li a {
+  padding: 20px 30px;
   }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
+
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
   }
-  .header .menu-icon {
-    display: none;
+
+.header .menu-icon {
+  display: none;
   }
 }

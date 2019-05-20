@@ -1,127 +1,67 @@
 <!DOCTYPE html>
 <html>
-
-
-<!--JQUERY-UI-->
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<script type='text/javascript' src="js/mobile_menu.js"></script>
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emily Heyrman | Case Study</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- PAGE HEADER TITLE DISPLAYED----------------------------------------------------------->
+  <title>Emily Heyrman's Journey</title>
+  <!--- FONT ------------------------------------------------------------------------->
+  <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,900'
+    rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Source Sans Pro:thin,extra-light,light,100,900'
+    rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Raleway:thin,extra-light,light,100,900'
+    rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom Styles -->
       <link rel="stylesheet" href="styles/reset.css">
       <link rel="stylesheet" href="styles/main.css">
-      <link rel="stylesheet" href="styles/flex.css">
-
-      <!--- JQUERY ------------------------------------------------------------------------------->
-      		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-      		<script type='text/javascript' src="js/mobile_menu.js"></script>
-
-      <!---Lato and Bad Script Font courtesy of Google Fonts at fonts.google.com ----------------->
-      		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-      		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-      		<script>
-
-      					  /* Following script courtesy of jQuery UI documentation of toggle effect*/
-
-      					  //Toggle mobile menu visability
-      					  $( function() {
-      						  $('#mobile-nav-container').removeClass('hidden');
-
-      						  $( "#menu-button" ).on( "click", function() {
-      								runEffect("#mobile-nav-container");
-      						  });
-
-      					  } );
-
-      					  $( function() {
-      						  $( "#menu-button" ).on( "click", function() {
-      								runEffect("#menu-icon");
-      						  });
-
-      					  } );
-
-      					  $( function() {
-      						  $('#close-icon').removeClass('hidden');
-
-      						  $( "#menu-button" ).on( "click", function() {
-      								runEffect("#close-icon");
-      						  });
-
-      					  } );
-
-      					  var isVisible = false;
-      						$(window).scroll(function(){
-      						     var shouldBeVisible = $(window).scrollTop()>200;
-      						     if (shouldBeVisible && !isVisible) {
-      						          isVisible = true;
-      						          $('#back-to-top').show();
-      						     } else if (isVisible && !shouldBeVisible) {
-      						          isVisible = false;
-      						          $('#back-to-top').hide();
-      						    }
-      						});
-      		</script>
-      	</head>
-
       <!--- BODY START --------------------------------------------------------------------------->
         <body>
-      <!--MOBILE HEADER START--------------------------------------------------------------------->
-      <article class='light'>
-      <header>
-        <div id='mobile-header'>
-          <div id='mobile-header-img-container'>
-            <div id='menu-button-container'>
-              <a href='#!' id='menu-button'>
-                <img id='menu-icon' src='images/menu-icon.png' alt='' />
-                <img id='close-icon' src='images/cancel.png' alt='' />
-                <div class='clear'></div>
-              </a>
-            </div>
-          </div>
-            <div class='clear'></div>
-          <div id='mobile-nav-container'>
-              <nav id='mobile-nav'>
-                <ul>
-                  <li><a href='journey.html'>About</a></li>
-                  <li><a href='index.html'>Work</a></li>
-                  <li><a href='#Contact'>Contact</a></li>
-                </ul>
-              </nav>
-          </div>
-          <div class='scroll-down'>
-            <img src='img/icons/scroll-down.png' alt='Back to Top Icon' / >
-          </div>
-        </div>
-      </header>
 <!--- GRID CONTAINER ----------------------------------------------------------------------->
            <div class="container-SaveSafe">
+<!--MOBILE HEADER START--------------------------------------------------------------------->
+             <header class="header">
+               <input class="menu-btn" type="checkbox" id="menu-btn" />
+               <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+             </label>
+               <ul class="menu">
+                 <li><a href='index.html'>Home</a></li>
+                 <li><a href='images/Résumé.png'>Résumé</a></li>
+                 <li><a href='#Contact'>Contact</a></li>
+               </ul>
+             </header>
+<!---DESKTOP HEADER START------------------------------------------------------------------->
+            <div>
+             <header class="header">
+             <input class="menu-btn" type="checkbox" id="menu-btn" />
+             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+             <ul class="menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+             </ul>
+             </header>
+            </div>
 <!--- HERO SECTION ------------------------------------------------------------------------->
-  <section class="hero-SaveSafe">
+  <div class="hero-SaveSafe">
       <h1>Save Safe Case Study</h1>
       <h2>Cloud storage app for the everyday saver.</h2>
-        <a class="SaveSafe-Prototype-Button" href="https://www.figma.com/proto/QVsmUi4h7M5WoKbPxkUsWfOB/Save-Safe-Desktop-Macbook-Pro?node-id=261%3A0&viewport=495%2C303%2C0.0218388&scaling=scale-down ">Prototype</a>
-        <img class="hero-image" src="images/CaseStudyHeroPhoto.jpg" alt="Case Study Hero Photo"/>
-  </section>
+      <a class="SaveSafe-Prototype-Button" href="https://www.figma.com/proto/QVsmUi4h7M5WoKbPxkUsWfOB/Save-Safe-Desktop-Macbook-Pro?node-id=261%3A0&viewport=495%2C303%2C0.0218388&scaling=scale-down ">Prototype</a>
+      <img class="hero-image" src="images/CaseStudyHeroPhoto.jpg" alt="Case Study Hero Photo"/>
+  </div>
   <!-- Overview Section -->
   <section class="Overview">
       <h1>Overview</h1>
       <ul>
-        <li class="role">Role</li>
-        <li class="role-info">UX Visual Design & Branding</li>
-        <li class="Tools">Tools</li>
-        <li class="tools-info">Figma,Invision,Google Docs & Adobe Photoshop</li>
-        <li class="Date">Date </li>
-        <li class="date-info">Winter 2019</li>
-        <li class="Skills">Skills</li>
+        <li class="overview-bold">Role</li>
+        <li class="role">UX Visual Design & Branding</li>
+        <li class="overview-bold">Tools</li>
+        <li class="tools">Figma,Invision,Google Docs & Adobe Photoshop</li>
+        <li class="overview-bold">Date </li>
+        <li class="date">Winter 2019</li>
+        <li class="overview-bold">Skills</li>
         <li class="skills-info">Survey Design, Competitive Analysis, User Stories & Flows, Creating Personas, Conducting User Interviews & Observations, Sketching, Wireframing, Prototyping, User Testing & Analysis</li>
      </ul>
   </section>
@@ -130,13 +70,13 @@
     <h1>Problem</h1>
       <h3 class="top-line-problem">There was multiple items needed to be solved for this project.</h3>
      <ul>
-       <li class="problem-1">Create name or brand</li>
-         <li class="problem-5">Save content</li>
-        <li class="problem-2">What platform</li>
-        <li class="problem-6">Organize content</li>
-        <li class="problem-3">Target audience</li>
-        <li class="problem-7">Create new content</li>
-        <li class="problem-4">Collaboration</li>
+       <li class="ProblemLine-1">Create name or brand</li>
+         <li class="problem-2">Save content</li>
+        <li class="ProblemLine-1">What platform</li>
+        <li class="problem-4">Organize content</li>
+        <li class="ProblemLine-1">Target audience</li>
+        <li class="problem-6">Create new content</li>
+        <li class="ProblemLine-1">Collaboration</li>
         <li class="problem-8">Upload new files</li>
      </ul>
        <h3 class="bottom-line-problem">This is all problems that needed to be solved for this project. </h3>
@@ -145,27 +85,23 @@
 <section class="Solution">
    <h1>Solution</h1>
      <p>A easy to use cloud storage survice called Save Safe. This application is great for every type of user that allows you to save, edit and organize your data on the go. </p>
-     <img class="SaveSafe-solution-image" src="images/SolutionPhotoSection.jpg" alt="Solution Photo Section"/>
 </section>
 <!-- Process Section -->
 <section class="Process-Section">
   <h1>Process</h1>
      <p> The cloud storage service is growing and the client seen a opening that allowed users to save everything in one location, but needed help laying and designing this application. This is where I came in, I used the following tools to develop what was needed for Save Safe.</p>
-
-
-
  <ul class="Process-List">
     <li class="process-1">User Surveys</li>
       <li class="process-2">SWOT Analysis </li>
-      <li class="process-3">User Personas </li>
+      <li class="process-1">User Personas </li>
       <li class="process-4">User Stories </li>
-      <li class="process-5">User Flows</li>
+      <li class="process-1">User Flows</li>
     <li class="process-6">Wireframes </li>
-    <li class="process-7">Analysis of Testing </li>
+    <li class="process-1">Analysis of Testing </li>
     <li class="process-8">Mockups </li>
-    <li class="process-9">Branding Work </li>
+    <li class="process-1">Branding Work </li>
     <li class="process-10">Typface </li>
-    <li class="process-11">Prototype</li>
+    <li class="process-1">Prototype</li>
  </ul>
 </section>
 <!-- User Surveys Section -->
@@ -265,38 +201,28 @@
   <p>Save Safe was a project that taught me the importance of testing throughout this design process. User testing helped me to determine what needed to happen to make this application successful. Testing allowed for quick iteration and discovery of unidentified problems which resulted in a far improved final product and inspired a more informed solution. With research and more testing it allowed me to develop a great brand for Save Safe to develop a applocation that not only looks great for the users but works great also. </p>
 </section>
 <!--- LET'S TALK LINK FOOTER SECTION -------------------------------------------------------->
-  <section class="footer">
+  <div class="footer">
   <footer class="lets-talk-links" id="Contact">
       <h1>Let's Talk</h1>
 <!--- EMAIL LINK ---------------------------------------------------------------------------->
       <a class="email-link" href="mailto:flynns_shutters@hotmail.com" target="_blank"> flynns_shutters@hotmail.com</a>
       <ul class="footer__link-list">
 <!--- LINKEDIN LINK-------------------------------------------------------------------------->
-        <li>
+        <li class="icon">
       <a class="linkedin-link" href="https://www.linkedin.com/in/emily-heyrman-a6504417b" target="_blank">
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      </a>
-    </li>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 <!--- GITHUB LINK --------------------------------------------------------------------------->
-    <li>
       <a class="github-link" href="https://github.com/EmilyHeyrman" target="_blank">
-        <i class="fa fa-github-square" aria-hidden="true"></i>
-      </a>
-    </li>
+        <i class="fa fa-github-square" aria-hidden="true"></i></a>
 <!--- FACEBOOK LINK ------------------------------------------------------------------------->
-    <li>
       <a class="facebook-link" href="https://www.facebook.com/emily.flynn.31?ref=bookmarks" target="_blank">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-      </a>
-    </li>
-<!--- TWITTER LINK -------------------------------------------------------------------------->
-    <li>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <!--- TWITTER LINK -------------------------------------------------------------------------->
        <a class="twittier-link" href="https://twitter.com/HeyrmanEmily" target="_blank">
-         <i class="fa fa-twitter-square" aria-hidden="true"></i>
-      </a>
-  </li>
-    </ul>
- </footer>
+         <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      </li>
+     </ul>
+    </footer>
 </section>
 </div>
   </body>

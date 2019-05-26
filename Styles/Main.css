@@ -26,12 +26,15 @@ body {
 
 /* header */
 
+
+
 .header {
   background-color: #FFA796;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
+
 }
 
 .header ul {
@@ -57,13 +60,15 @@ body {
   background-color: #f4f4f4;
 }
 
-.header .logo {
+.logo {
   display: block;
   float: left;
-  font-size: 2em;
-  padding: 10px 20px;
+  font-size: 2vw;
+  padding: .5vw 0 .5vw 1vw;
   text-decoration: none;
+  width: 139px;
 }
+
 
 /* menu */
 
@@ -160,12 +165,6 @@ body {
   width: 100%;
 }
 
-.logo{
-  height: 5vw;
-  padding: 2vw 2vw;
-  position: absolute;
-}
-
 .feathers{
   height: 100%;
   width: 100%;
@@ -180,7 +179,7 @@ body {
   font-size: 4vw;
   height: auto;
   line-height: 128%;
-  padding: 8vw 0 0 0;
+  padding: 7vw 0 0 0;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -199,7 +198,7 @@ body {
 /* ----------------------- MY STORY SECTION HOME PAGE---------------------------*/
 
 .my-journey{
-  background-image:url(../images/SummerAndMe.jpg);
+  background-image:url(../images/summerandme.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 4vw solid white;
@@ -243,7 +242,7 @@ body {
 /* ----------------------- SAVE SAFE SECTION HOME PAGE--------------------------*/
 .Save-Safe{
   background-color: #FFA796;
-  background-image:url(../images/Save-Safe-Section-Image.png);
+  background-image:url(../images/savesafesectionimage.png);
   background-size: 57%;
   background-repeat: no-repeat;
   border-bottom: 3.5vw solid white;
@@ -376,11 +375,11 @@ body {
   /*-- SWOT Surveys --*/25vw
   /*-- Personas --*/193vw
   /*-- User Stories --*/32vw
-  /*-- User Flows --*/157vw
+  /*-- User Flows --*/150vw
   /*-- Wireframes --*/126vw
   /*-- Analysis of Test --*/55vw
   /*-- Mockups --*/42vw
-  /*-- Branding --*/200vw
+  /*-- Branding --*/180vw
   /*-- Typeface --*/70vw
   /*-- Prototype --*/42vw
   /*-- Analysis of Test --*/70vw
@@ -563,7 +562,7 @@ p{
 
 /* ------------------ SOLUTION SECTION -----------------------------------------*/
 .Solution{
-  background-image:url(../images/SolutionPhotoSection.jpg);
+  background-image:url(../images/solutionphotosection.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -693,15 +692,11 @@ p{
   width: 100%;
 }
 
-.UserFlow-Sketches-Images{
-  padding: 5.3vw 5.3vw;
-  width: 89%;
+.UserFlow-Images{
+  padding-top: 5.3vw;
+  width: 100%;
 }
 
-.UserFlow-Digital-Images{
-  padding: 0 5.3vw 0 5.3vw;
-  width: 89%;
-}
 
 /* ------------------ WIREFRAME SECTION ----------------------------------------*/
 
@@ -725,15 +720,12 @@ p{
   width: 40%;
 }
 
-.Wireframe-Sketches-Images{
-  height: 27vw;
+.Wireframe-Images{
+  height: 82vw;
   padding: 4vw 4vw;
+  width: 92%;
 }
 
-.Wireframe-Digital-Images{
-  height: 46.5vw;
-  padding: 4vw 4vw;
-}
 
 /* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
 
@@ -747,14 +739,14 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: .7vw 4vw 0 4vw;
+  padding: 0 4vw 0 4vw;
 }
 
 .test-2{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 13.5vw 4vw 0 4vw;
+  padding: 13vw 4vw 0 4vw;
   position: absolute;
 }
 
@@ -762,7 +754,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 27vw 4vw 0 4vw;
+  padding: 26.6vw 4vw 0 4vw;
   position: absolute;
 }
 

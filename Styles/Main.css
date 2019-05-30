@@ -195,7 +195,7 @@ body {
 /* ----------------------- MY STORY SECTION HOME PAGE---------------------------*/
 
 .my-journey{
-  background-image:url(../images/summerandme.jpg);
+  background-image:url(../images/summer-and-me.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 4vw solid white;
@@ -558,7 +558,7 @@ p{
 
 /* ------------------ SOLUTION SECTION -----------------------------------------*/
 .Solution{
-  background-image:url(../images/solutionphotosection.jpg);
+  background-image:url(../images/solution-photo-section.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }

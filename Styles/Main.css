@@ -228,7 +228,7 @@ body {
   font-size: 2.5vw;
   line-height: 4.3vw;
   position: absolute;
-  right: 68.5vw;
+  right: 68%;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -260,7 +260,7 @@ body {
   font-size: 2.5vw;
   line-height: 4.3vw;
   padding: 4vw 0 0 63vw;
-  width: 24%;
+  width: 30%;
 }
 
 .Save-Safe h3{
@@ -279,7 +279,7 @@ body {
   font-size: 2.5vw;
   line-height: 4.3vw;
   position: absolute;
-  right: 28.5vw;
+  right: 26vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -295,7 +295,7 @@ body {
   font-size: 2.5vw;
   line-height: 4.3vw;
   position: absolute;
-  right: 7.5vw;
+  right: 8vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;

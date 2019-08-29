@@ -44,7 +44,6 @@ body {
 }
 
 .header li a {
-  border-right: 1px solid #f4f4f4;
   color: #000000;
   display: block;
   font-size: 2vw;
@@ -176,10 +175,9 @@ body {
   font-size: 4vw;
   height: auto;
   line-height: 128%;
-  padding: 7vw 0 0 0;
+  padding: 7vw 0 0 21vw;
   position: absolute;
-  text-align: center;
-  width: 100%;
+  width: 60%;
 }
 
 .hero h2{
@@ -192,6 +190,16 @@ body {
   width: 100%;
 }
 
+.hero h3{
+  font-style: italic;
+  font-size: 2.5vw;
+  height: auto;
+  line-height: 128%;
+  padding: 30vw 0 0 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
 /* ----------------------- MY STORY SECTION HOME PAGE---------------------------*/
 
 .my-journey{
@@ -215,8 +223,8 @@ body {
 
 .my-journey p{
   font-size: 2.5vw;
-  line-height: 5vw;
-  padding-bottom: 3vw;
+  line-height: 4vw;
+  padding-bottom: 5vw;
 }
 
 .My-Life-Button{
@@ -235,6 +243,13 @@ body {
   width: 14%;
 }
 
+.my-story-image{
+  display: none;
+}
+
+.story-image{
+  display: none;
+}
 
 /* ----------------------- SAVE SAFE SECTION HOME PAGE--------------------------*/
 .Save-Safe{
@@ -245,9 +260,15 @@ body {
   border-bottom: 3.5vw solid white;
 }
 
+.save-safe-mobile-image{
+  display: none;
+}
+.Save-Safe-Mobile{
+display: none;
+}
+
 .Save-Safe h2, p, h3{
   padding: 5vw 0 0 50vw;
-  text-align: center;
   width:49%;
 }
 
@@ -258,20 +279,20 @@ body {
 .Save-Safe p{
   font-family: Montserrat;
   font-size: 2.5vw;
-  line-height: 4.3vw;
-  padding: 4vw 0 0 63vw;
+  line-height: 0;
+  padding: 5vw 0 2vw 63vw;
   width: 30%;
 }
 
 .Save-Safe h3{
   font-size: 2.5vw;
   line-height: 4.3vw;
-  padding-bottom: 5vw;
-  padding-top: 1vw;
+  padding: 0 0 5vw 58vw;
+  width: 35%;
 }
 
 .Prototype-Button{
-  background-color: #D6FFF9;
+  background-color: #80c3b9;
   border: white 2px solid ;
   box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
   color: #000000;
@@ -279,7 +300,7 @@ body {
   font-size: 2.5vw;
   line-height: 4.3vw;
   position: absolute;
-  right: 27%;
+  right: 30%;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -362,24 +383,26 @@ body {
   grid-template-columns: auto;
   grid-template-rows:
   /*-- nav --*/5.5rem
-  /*-- Hero --*/38vw
-  /*-- Overview --*/48vw
-  /*-- Problem --*/56vw
+  /*-- Hero --*/39vw
+  /*-- Overview --*/41vw
+  /*-- Problem --*/60vw
   /*-- Solution --*/38vw
-  /*-- Process --*/67vw
-  /*-- User Surveys --*/35vw
-  /*-- SWOT Surveys --*/25vw
-  /*-- Personas --*/193vw
-  /*-- User Stories --*/32vw
-  /*-- User Flows --*/150vw
-  /*-- Wireframes --*/126vw
+  /*-- Process --*/70vw
+  /*-- User Surveys --*/54vw
+  /*-- SWOT Surveys --*/41vw
+  /*-- Personas --*/42vw
+  /*-- Personas-Leanne --*/133vw
+  /*-- Personas-Joe --*/127vw
+  /*-- User Stories --*/47vw
+  /*-- User Flows --*/154vw
+  /*-- Wireframes --*/266vw
   /*-- Analysis of Test --*/55vw
   /*-- Mockups --*/42vw
-  /*-- Branding --*/180vw
-  /*-- Typeface --*/70vw
+  /*-- Branding --*/200vw
+  /*-- Typeface --*/85vw
   /*-- Prototype --*/42vw
-  /*-- Analysis of Test --*/70vw
-  /*-- Conclusion --*/36vw
+  /*-- Analysis of Test --*/85vw
+  /*-- Conclusion --*/60vw
   /*-- Footer --*/42vw
   ;
 }
@@ -388,16 +411,16 @@ body {
 
 h1{
   font-size: 4vw;
-  padding: 5vw 0 4vw 4vw;
+  padding: 5vw 0 5vw 21vw;
 }
 
 p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 0 4vw 1vw 4vw;
-  width: 91%;
+  padding: 0 0 1vw 21.5vw;
   text-align: left;
+  width:57%;
 }
 
 .hero-image{
@@ -406,19 +429,19 @@ p{
 
 .hero-SaveSafe h1{
   font-size: 4vw;
-  line-height: 6vw;
-  padding: 3vw 0 0 14vw;
+  line-height: 5vw;
+  padding: 4vw 0 0 11vw;
   position: absolute;
-  text-align: center;
+  text-align: left;
   width: 23vw;
 }
 
 .hero-SaveSafe h2{
   font-size: 2vw;
-  line-height: 4vw;
+  line-height: 3vw;
   padding: 17vw 0 0 11vw;
   position: absolute;
-  text-align: center;
+  text-align: left;
   width: 29vw;
 }
 
@@ -429,14 +452,31 @@ p{
   color: #000000;
   font-family: Raleway;
   font-size: 2vw;
-  line-height: 4.3vw;
-  margin-top: 29vw;
+  line-height: 3.3vw;
+  margin-top: 27vw;
   position: absolute;
-  right: 67.5vw;
+  right: 73.5vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
-  width: 14%;
+  width: 15%;
+}
+
+.SaveSafe-PrototypeMobile-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 3.3vw;
+  margin-top: 27vw;
+  position: absolute;
+  right: 53.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 15%;
 }
 
 /* ------------------ OVERVIEW SECTION -----------------------------------------*/
@@ -451,42 +491,42 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   font-weight: 900;
-  padding: 1vw 0 3vw 4.5vw;
+  padding: 0 0 2vw 21vw;
 }
 
 .role{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding-left: 5vw;
-  width: 80%;
+  padding-left: 6vw;
+  width: 43%;
 }
 
 .tools{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding-left: 4.3vw;
-  width: 80%;
+  padding-left: 5.3vw;
+  width: 44%;
 }
 
 .date{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding-left: 5vw;
-  width: 80%;
+  padding-left: 5.9vw;
+  width: 44%;
 }
 
 .skills-info{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  line-height: 4vw;
+  line-height: 3vw;
   padding-left: 4.5vw;
   position: absolute;
   text-align: left;
-  width: 75%;
+  width: 55%;
 }
 
 /* ------------------ PROBLEM SECTION ------------------------------------------*/
@@ -498,14 +538,13 @@ p{
 }
 
 .top-line-problem{
-  align-items: center;
   color: #000000;
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
   font-weight: 900;
-  padding: 0 15vw 5vw 15vw;
-  width: 70%;
+  padding: 0 15vw 5vw 21vw;
+  width: 56%;
 }
 
 .ProblemLine-1{
@@ -513,7 +552,8 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding-left: 26vw;
+  list-style-type: disc;
+  padding: 0 40vw 0 4vw;
 }
 
 .problem-2{
@@ -521,7 +561,7 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 17vw 3vw 15vw;
+  padding: 0 55vw 0 4vw;
 }
 
 .problem-4{
@@ -529,7 +569,7 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 17vw 3vw 21.2vw;
+  padding: 0 53vw 0 4vw;
 }
 
 .problem-6{
@@ -537,7 +577,7 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 17vw 3vw 20vw;
+  padding: 0 46vw 0 4vw;
 }
 
 .problem-8{
@@ -545,18 +585,13 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 17vw 0 22vw;
+  padding: 0 17vw 0 4vw;
 }
 
-.bottom-line-problem{
-  font-family: Source Sans Pro;
-  font-size: 2vw;
-  font-weight:900;
-  padding: 5vw 16vw 0 18vw;
-  width: 65%;
-}
 
 /* ------------------ SOLUTION SECTION -----------------------------------------*/
+
+
 .Solution{
   background-image:url(../images/solution-photo-section.jpg);
   background-size: 100%;
@@ -564,9 +599,9 @@ p{
 }
 
 .Solution h1{
-  padding: 4vw 0 0 58vw;
-  position: absolute;
   font-size: 4vw;
+  padding: 4.5vw 11vw 0 58vw;
+  position: absolute;
 }
 
 .Solution p{
@@ -574,10 +609,48 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
+  padding: 11vw 0 0 58vw;
   position: absolute;
   text-align: left;
-  width: 39%;
-  padding: 14vw 0 0 58vw;
+  width: 36%;
+}
+
+.SaveSafe-Prototype1-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 3.3vw;
+  margin-top: 28vw;
+  position: absolute;
+  right: 26.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 15%;
+}
+
+.SaveSafe-Prototype2-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 3.3vw;
+  margin-top: 28vw;
+  position: absolute;
+  right: 7.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 15%;
+}
+
+.Solution-Image{
+  display: none;
 }
 
 /* ------------------ PROCESS SECTION ------------------------------------------*/
@@ -595,28 +668,28 @@ p{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 4vw 0 0 26vw;
+  padding: 4vw 0 0 29.5vw;
 }
 
 .process-2{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 0 0 24vw;
+  padding: 0 0 0 16vw;
 }
 
 .process-4{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 0 0 23vw;
+  padding: 0 0 0 15vw;
 }
 
 .process-6{
   display: inline-block;
   font-family: Source Sans Pro;
   font-size: 2vw;
-  padding: 0 0 0 25.8vw;
+  padding: 0 0 0 18vw;
 }
 
 .process-8{
@@ -624,7 +697,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   padding-left: 17.5%;
-  padding: 0 6vw 0 19.5vw;
+  padding: 0 6vw 0 11.6vw;
 }
 
 .process-10{
@@ -632,7 +705,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   padding-left: 21.8%;
-  padding: 0 11vw 0 22.5vw;
+  padding: 0 11vw 0 14.5vw;
 }
 
 /* ------------------ USER SURVEYS SECTION--------------------------------------*/
@@ -642,12 +715,96 @@ p{
   width: 100%;
 }
 
+.SaveSafe-Survey-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 4vw;
+  position: absolute;
+  right: 63.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.SaveSafe-Responses-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 4vw;
+  position: absolute;
+  right: 44.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
 /* ------------------ SWOT ANALYSIS SECTION-------------------------------------*/
 
 .SWOT-Analysis-Section{
   width: 100%;
 }
 
+.SaveSafe-SWOT-Dropbox-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 63.4vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.SaveSafe-SWOT-GoogleDrive-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 44vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.SaveSafe-SWOT-Pinterest-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 24vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
 /* ------------------ PERSONAS SECTION -----------------------------------------*/
 
 .Persona-Image-Section{
@@ -655,7 +812,7 @@ p{
 }
 
 .Personas-Section h1{
-  padding: 4vw 0 0 4vw;
+  padding: 5vw 0 5vw 11vw;
   position: absolute;
 }
 
@@ -663,16 +820,137 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 15vw 0 0 4vw;
+  padding: 12vw 0 0 11vw;
   position: absolute;
-  width: 47%;
   text-align: left;
+  width: 40%;
 }
 
-.joe-persona-images{
-  height: 146vw;
-  padding: 4vw 0 4vw 4vw;
-  width: 92%;
+.SaveSafe-Personas-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: -7vw;
+  position: absolute;
+  right: 74vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.Personas-Leanne{
+  background: #FFA796;
+}
+
+.leanne-image{
+  padding: 2vw 0 0 11vw;
+  width:32%;
+}
+
+.Motivations{
+  font-size: 4vw;
+  padding: .9vw 0 2vw 44vw;
+  margin-top: -47vw;
+  width:23%;
+}
+
+.Motivations-p{
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  padding: 0 0 0 44vw;
+  width:45%;
+}
+
+.name-persona{
+  font-size: 1.5vw;
+  padding: 0 0 1vw 11vw;
+  width:12.5%;
+}
+
+.name-persona-2{
+  font-size: 1.5vw;
+  padding: 0 0 1vw 11vw;
+  width:9.5%;
+}
+
+.Job{
+  font-size: 1.5vw;
+  padding: 0 0 0 11vw;
+  width:22%;
+}
+
+.Job-2{
+  font-size: 1.5vw;
+  padding: 0 0 0 10.6vw;
+  width:18%;
+}
+
+.Everyday-User{
+  font-size: 4vw;
+  padding: 4vw 0 2vw 11vw;
+  width:29%;
+}
+
+.Non-User{
+  font-size: 4vw;
+  padding: 4vw 0 2vw 11vw;
+  width:20%;
+}
+
+.Goals{
+  font-size: 4vw;
+  padding: 4vw 0 1vw 61vw;
+  width:11%;
+}
+
+.Goal-List{
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  padding: 0 0 0 61vw;
+  width:28%;
+}
+
+.Frustrations{
+  font-size: 4vw;
+  padding: 4vw 0 1vw 11vw;
+  width:24%;
+  margin-top: -37vw;
+}
+
+.Frustrations-2{
+  font-size: 4vw;
+  margin-top: -37vw;
+  padding: 12vw 0 1vw 11vw;
+  width:24%;
+}
+
+.Fristrations-List{
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  padding: 0 11vw 0 11vw;
+  width:45%;
+}
+
+.BIO{
+  font-size: 4vw;
+  padding: 3vw 11vw 1vw 10.5vw;
+  width:8%;
+}
+
+.BIO-p{
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  padding: 0 21vw 0 11vw;
+  width:58%;
 }
 
 /* ------------------ USER STORIES SECTION -------------------------------------*/
@@ -680,6 +958,23 @@ p{
 .User-Stories-Section{
   background: #FFA796;
   width: 100%;
+}
+
+.SaveSafe-UserStory-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 63.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
 }
 
 /* ------------------ USER FLOW SECTION ----------------------------------------*/
@@ -693,7 +988,6 @@ p{
   width: 100%;
 }
 
-
 /* ------------------ WIREFRAME SECTION ----------------------------------------*/
 
 .Wireframe-image{
@@ -702,26 +996,53 @@ p{
 
 .Wireframes-Section h1{
   font-size: 4vw;
-  padding: 4vw 0 0 58vw;
+  padding: 5.5vw 11vw 0 58vw;
   position: absolute;
 }
 
 .Wireframes-Section p{
+  color: #000000;
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 14vw 0 0 58vw;
+  padding: 12vw 5vw 0 58vw;
   position: absolute;
   text-align: left;
-  width: 40%;
+  width: 36%;
 }
 
 .Wireframe-Images{
-  height: 82vw;
-  padding: 4vw 4vw;
-  width: 92%;
+  height: 121vw;
+  padding: 0 4vw 0 4vw;
+  width: 91%;
 }
 
+.Wireframe-Digital{
+  height: 100vw;
+  padding: 0 4vw 0 7vw;
+  width: 86%;
+}
+
+.Wireframe-mobile{
+  display: none;
+}
+
+.SaveSafe-Wireframe-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 30vw;
+  position: absolute;
+  right: 26.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
 
 /* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
 
@@ -735,14 +1056,14 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 0 4vw 0 4vw;
+  padding: 0 4vw 0 21vw;
 }
 
 .test-2{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 13vw 4vw 0 4vw;
+  padding: 12vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -750,7 +1071,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 26.6vw 4vw 0 4vw;
+  padding: 26.6vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -760,17 +1081,18 @@ p{
   font-size: 2vw;
   line-height: 3.5vw;
   position: absolute;
-  width: 79.5%;
+  width: 55.5%;
+  margin-top: -0.5vw;
 }
 
 .test-2-info{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding-left: 14vw;
-  padding-top: 13vw;
+  padding-left: 31.5vw;
+  padding-top: 11.5vw;
   position: absolute;
-  width: 79.5%;
+  width: 55.5%;
 }
 
 .test-3-info{
@@ -779,8 +1101,8 @@ p{
   font-size: 2vw;
   line-height: 3.5vw;
   position: absolute;
-  padding-top: 29vw;
-  width: 79.5%;
+  padding-top: 28.5vw;
+  width: 55.5%;
 }
 
 /* ------------------ MOCKUPS SECTIONS ----------------------------------------*/
@@ -791,8 +1113,7 @@ p{
 }
 
 .Mockup-Section h1{
-  font-size: 4vw;
-  padding: 9vw 0 4vw 4vw;
+  padding: 8.5vw 0 5vw 11vw;
   position: absolute;
 }
 
@@ -800,11 +1121,49 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 18vw 0 0 4vw;
+  padding: 15.4vw 0 0 11vw;
   position: absolute;
-  width: 39%;
+  text-align: left;
+  width: 44%;
 }
 
+.SaveSafe-Mockup-Mobile-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 33vw;
+  position: absolute;
+  right: 54vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.SaveSafe-Mockup-Desktop-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 33vw;
+  position: absolute;
+  right: 74vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.Mockup-portfolio{
+  display: none;
+}
 .Mockup-Image-Digital{
   padding-top: 4vw;
   width: 100%;
@@ -817,8 +1176,25 @@ p{
   width: 100%;
 }
 
+.SaveSafe-Branding-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 63.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
 .sketching-of-logo{
-  padding: 4vw 0 0 4vw;
+  padding: 11vw 0 0 4vw;
   width: 92%;
 }
 
@@ -864,17 +1240,57 @@ p{
 
 .Prototype h1{
   font-size: 4vw;
-  padding: 6vw 0 5vw 58vw;
+  padding: 4vw 11vw 0 58vw;
   position: absolute;
 }
 
 .Prototype p{
+  color: #000000;
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 17vw 0 0 58vw;
+  padding: 11.4vw 3vw 0 58vw;
   position: absolute;
+  text-align: left;
   width: 38%;
+}
+
+.SaveSafe-Prototype-Mobile-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 29vw;
+  position: absolute;
+  right: 7vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.SaveSafe-Prototype-Desktop-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 29vw;
+  position: absolute;
+  right: 26.6vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
+
+.Prototype-Image{
+  display: none;
 }
 
 /* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
@@ -884,14 +1300,14 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 0 4vw 0 4vw;
+  padding: 0 4vw 0 21vw;
 }
 
 .test2-two{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 16.5vw 4vw 0 4vw;
+  padding: 19.5vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -899,7 +1315,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 35vw 4vw 0 4vw;
+  padding: 42vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -909,17 +1325,17 @@ p{
   font-size: 2vw;
   line-height: 3.5vw;
   position: absolute;
-  width: 79.5%;
+  width: 55.5%;
 }
 
 .test2-two-info{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding-left: 15vw;
-  padding-top: 16vw;
+  padding-left: 31.3vw;
+  padding-top: 19vw;
   position: absolute;
-  width: 79.5%;
+  width: 55.5%;
 }
 
 .test2-three-info{
@@ -927,15 +1343,16 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding-top: 37vw;
+  padding-top: 44vw;
   position: absolute;
-  width: 79.5%;
+  width: 55.5%;
 }
 
 /* ------------------ CONCLUSION SECTION --------------------------------------*/
 
 .Conclusion{
   background: #FFA796;
+  border-bottom: 3.5vw solid white;
   width: 100%;
 }
 
@@ -943,18 +1360,53 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 0 0 0 4vw;
-  width: 91%;
+  padding: 0 0 0 21.5vw;
+  width: 58%;
+}
+
+.SaveSafe-Conclusion1-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 3.3vw;
+  margin-top: 3vw;
+  position: absolute;
+  right: 63vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 15%;
+}
+
+.SaveSafe-Conclusion2-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 3.3vw;
+  margin-top: 3vw;
+  position: absolute;
+  right: 41.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 15%;
 }
 
 /* ------------------ START OF MY JOURNEY PAGE --------------------------------*/
 
 
 /* ------------------ MY JOURNEY CONTAINER ------------------------------------*/
+
 .container-journey{
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 5.7rem 45vw 158vw 42vw;
+  grid-template-rows: 5.7rem 45vw 195vw 42vw;
 }
 
 .Journey-Image{
@@ -968,7 +1420,7 @@ p{
 .my-journey-h1{
   font-size: 4vw;
   line-height:6vw;
-  padding: 14vw 0 0 6vw;
+  padding: 14vw 0 0 11vw;
   position: absolute;
   width: 38vw;
 }
@@ -978,9 +1430,9 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   line-height: 4vw;
-  padding: 5vw 5vw 0 5vw;
-  width: 90%;
+  padding: 5vw 5vw 0 13vw;
   text-align: left;
+  width: 73%;
 }
 
 .bold{
@@ -1008,4 +1460,921 @@ p{
 .header .menu-icon {
   display: none;
   }
+}
+
+@media (max-width: 768px) {
+
+/* ------------------ START OF MY JOURNEY PAGE MOBILE --------------------------------*/
+
+
+/* ------------------ MY JOURNEY CONTAINER ------------------------------------*/
+
+.header li a {
+  font-size: 3.5vw;
+  padding: 17px 30px;
+  }
+
+.container-journey{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 5.7rem 45vw 500vw 46vw;
+}
+
+.my-journey-h1{
+  font-size: 5vw;
+  line-height:8vw;
+}
+
+.p-1 {
+  font-size: 4vw;
+  line-height: 7vw;
+}
+
+.lets-talk-links h1{
+  font-size: 6vw;
+}
+
+.email-link{
+  font-size: 3.5vw;
+}
+
+
+/* ----------------------- HERO SECTION HOME PAGE-------------------------------*/
+
+/* ----------------------- MOBILE LOGO -----------------------------------------*/
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 5.7rem 60vw 60vw 75vw 60vw 78vw 42vw;
+}
+
+.hero h1{
+  font-size: 6vw;
+  padding: 9vw 0 0 5vw;
+  width: 89%;
+}
+
+.hero h2{
+  font-size: 3.5vw;
+  line-height: 128%;
+  padding: 32vw 0 0 0;
+}
+
+.hero h3{
+  font-size: 3.5vw;
+  padding: 40vw 0 0 9vw;
+  width: 77%;
+}
+
+/* ----------------------- SAVE SAFE SECTION HOME PAGE--------------------------*/
+.Save-Safe{
+  background-color: #FFA796;
+  background-image:none;
+}
+
+.Save-Safe h2{
+  font-size: 6vw;
+  padding: 7vw 0 0 25vw;
+}
+
+.Save-Safe p{
+  font-size: 3.5vw;
+  line-height: 8vw;
+  padding: 4vw 0 3vw 33vw;
+  width: 35%;
+}
+
+.Save-Safe h3{
+  font-size: 3.5vw;
+  line-height: 4.3vw;
+  padding-bottom: 7vw;
+  padding-left: 26vw;
+  width: 49%;
+}
+
+.Prototype-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  right: 54%;
+  width: 25%;
+}
+
+.Case-Study-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  right: 20.5%;
+  width: 25%;
+}
+
+
+/* ----------------------- SAVE SAFE IMAGE FOR MOBILE---------------------------*/
+
+.save-safe-mobile-image{
+  display: inline;
+  width: 100%;
+}
+
+.Save-Safe-Mobile{
+  display: inline;
+  width: 100%;
+}
+
+/* ----------------------- MY STORY SECTION HOME PAGE---------------------------*/
+
+.my-journey{
+  background-image: none;
+  background-color: #FFA796;
+}
+
+.my-journey h2{
+  font-size: 6vw;
+  padding: 9vw 0 2vw 25vw;
+}
+
+.my-journey p{
+  font-size: 3.5vw;
+  line-height: 4vw;
+  padding-bottom: 7vw;
+  padding-left: 25vw;
+}
+
+.My-Life-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  right: 38%;
+  width: 25%;
+}
+
+/* ----------------------- MY STORY IMAGE MOBILE--------------------------*/
+
+.my-story-image{
+  border-bottom: 4vw solid white;
+  display: inline;
+  width: 100%;
+}
+
+.story-image{
+  display: inline;
+  width: 100%;
+}
+
+.container-SaveSafe{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:
+  /*-- nav --*/5.5rem
+  /*-- Hero --*/50vw
+  /*-- IMAGE HERO --*/71vw
+  /*-- Overview --*/64vw
+  /*-- Problem --*/94vw
+  /*-- Solution --*/63vw
+  /*-- Solution Image --*/114vw
+  /*-- Process --*/101vw
+  /*-- User Surveys --*/95vw
+  /*-- SWOT Surveys --*/100vw
+  /*-- Personas --*/70vw
+  /*-- Personas-Leanne --*/375vw
+  /*-- Personas-Joe --*/355vw
+  /*-- User Stories --*/80vw
+  /*-- User Flows --*/175vw
+  /*-- Wireframes --*/373vw
+  /*-- Analysis of Test --*/105vw
+  /*-- Mockups --*/198vw
+  /*-- Branding --*/243vw
+  /*-- Typeface --*/127vw
+  /*-- Prototype --*/62vw
+  /*-- Prototype Image --*/71vw
+  /*-- Analysis of Test --*/153vw
+  /*-- Conclusion --*/97vw
+  /*-- Footer --*/42vw
+  ;
+}
+
+/* ------------------HERO SECTION FOR CASE STUDY SAVE SAFE ---------------------*/
+
+.hero-SaveSafe{
+  background-color: #97B7CC;
+  border-bottom: 4vw solid white;
+}
+
+h1{
+  font-size: 6vw;
+  padding: 5vw 0 5vw 14vw;
+}
+
+p{
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  padding: 0 0 1vw 14vw;
+  width:75%;
+}
+
+.hero-image{
+  display: none;
+}
+
+.hero-SaveSafe h1{
+  font-size: 6vw;
+  padding: 9vw 0 0 17vw;
+  width: 65vw;
+}
+
+.hero-SaveSafe h2{
+  font-size: 3.5vw;
+  line-height: 3vw;
+  padding: 20vw 0 0 13vw;
+  position: absolute;
+  text-align: left;
+  width: 73vw;
+}
+
+.SaveSafe-Prototype-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 30vw;
+  right: 54vw;
+  width: 32%;
+}
+
+.SaveSafe-PrototypeMobile-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 30vw;
+  right: 15vw;
+  width: 32%;
+}
+
+/* ------------------ OVERVIEW SECTION -----------------------------------------*/
+
+.overview-bold{
+  font-size: 3.5vw;
+  padding: 0 0 4vw 14vw;
+}
+
+.role{
+  font-size: 3vw;
+  width: 54%;
+}
+
+.tools{
+  font-size: 3vw;
+  width: 62%;
+}
+
+.date{
+  font-size: 3vw;
+  width: 64%;
+}
+
+.skills-info{
+  font-size: 3vw;
+  line-height: 4vw;
+  width: 62%;
+}
+
+/* ------------------ PROBLEM SECTION ------------------------------------------*/
+
+.top-line-problem{
+  font-size: 3.5vw;
+  padding: 0 5vw 5vw 14vw;
+  width: 75%;
+}
+
+.ProblemLine-1{
+  font-size: 3.5vw;
+  padding-right: 42vw;
+}
+
+.problem-2{
+  font-size: 3.5vw;
+}
+
+.problem-4{
+  font-size: 3.5vw;
+  padding-right: 44vw;
+}
+
+.problem-6{
+  font-size: 3.5vw;
+}
+
+.problem-8{
+  font-size: 3.5vw;
+}
+
+/* ------------------ SOLUTION SECTION -----------------------------------------*/
+
+.Solution{
+  background-image:none;
+  background-color: #97B7CC;
+  border-bottom: 4vw solid white;
+}
+
+.Solution h1{
+  font-size: 6vw;
+  padding: 4.5vw 11vw 0 14vw;
+}
+
+.Solution p{
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  padding: 15vw 6vw 0 14vw;
+  width: 75%;
+}
+
+.SaveSafe-Prototype1-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 42vw;
+  right: 53vw;
+  width: 32%;
+}
+
+.SaveSafe-Prototype2-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 42vw;
+  right: 14vw;
+  width: 32%;
+}
+
+.Solution-Image{
+  display: inline;
+}
+
+.solution-image-project{
+  width: 100%;
+}
+
+/* ------------------ PROCESS SECTION ------------------------------------------*/
+
+.process-1{
+  font-size: 3.5vw;
+  padding: 4vw 0 0 14vw;
+}
+
+.process-2{
+  font-size: 3.5vw;
+  padding: 0 0 0 24vw;
+}
+
+.process-4{
+  font-size: 3.5vw;
+  padding: 0 0 0 22vw;
+}
+
+.process-6{
+  font-size: 3.5vw;
+  padding: 0 0 0 27vw;
+}
+
+.process-8{
+  font-size: 3.5vw;
+  padding: 0 6vw 0 16vw;
+}
+
+.process-10{
+  font-size: 3.5vw;
+  padding: 0 11vw 0 21vw;
+}
+
+/* ------------------ USER SURVEYS SECTION--------------------------------------*/
+
+.User-Surveys-Section{
+  background: #FFA796;
+  width: 100%;
+}
+
+.SaveSafe-Survey-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 5vw;
+  right: 59vw;
+  width: 25%;
+}
+
+.SaveSafe-Responses-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 5vw;
+  right: 25vw;
+  width: 25%;
+}
+
+/* ------------------ SWOT ANALYSIS SECTION-------------------------------------*/
+
+.SWOT-Analysis-Section{
+  width: 100%;
+}
+
+.SaveSafe-SWOT-Dropbox-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top:21vw;
+  right: 40vw;
+  width: 25%;
+}
+
+.SaveSafe-SWOT-GoogleDrive-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 5vw;
+  right: 40vw;
+  width: 25%;
+}
+
+.SaveSafe-SWOT-Pinterest-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 37vw;
+  right: 40vw;
+  width: 25%;
+}
+/* ------------------ PERSONAS SECTION -----------------------------------------*/
+.Personas-Section{
+  background-color: #97B7CC;
+  border-bottom: 4vw solid white;
+}
+
+.Persona-Image-Section{
+  display: none;
+  width: 100%;
+}
+
+.Personas-Section h1{
+  padding: 5vw 0 5vw 14vw;
+}
+
+.Personas-Section p{
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  padding: 15vw 0 0 14vw;
+  width:75%;
+}
+
+.SaveSafe-Personas-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 48vw;
+  right: 60vw;
+  width: 25%;
+}
+
+.leanne-image{
+  padding: 2vw 0 0 14vw;
+  width:72%;
+}
+
+.Motivations{
+  font-size: 6vw;
+  padding: .9vw 0 2vw 14vw;
+  margin-top: 5vw;
+  width:35%;
+}
+
+.Motivations-p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 0 0 0 14vw;
+  width:74%;
+}
+
+.name-persona{
+  font-size: 3.5vw;
+  padding: 0 0 1vw 14vw;
+  width:29%;
+}
+
+.name-persona-2{
+  font-size: 3.5vw;
+  padding: 0 0 1vw 14vw;
+  width:21.5%;
+}
+
+.Job{
+  font-size: 3.5vw;
+  padding: 0 0 0 14vw;
+  width:51%;
+}
+
+.Job-2{
+  font-size: 3.5vw;
+  padding: 0 0 0 14vw;
+  width:41%;
+}
+
+
+.Everyday-User{
+  font-size: 6vw;
+  padding: 5vw 0 5vw 14vw;
+  width: 44%;
+}
+
+.Non-User{
+  font-size: 6vw;
+  padding: 5vw 0 5vw 14vw;
+  width: 29%;
+}
+
+.Goals{
+  font-size: 6vw;
+  margin-bottom: 39vw;
+  padding: 6vw 0 1vw 14vw;
+  width:16%;
+}
+
+.Goal-List{
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  margin-top: -38vw;
+  padding: 0 0 0 14vw;
+  width:50%;
+}
+
+.Frustrations{
+  font-size: 6vw;
+  margin-top: 2vw;
+  padding: 4vw 0 2vw 14vw;
+  width:36%;
+}
+
+.Frustrations-2{
+  font-size: 6vw;
+  margin-top: -4vw;
+  padding: 12vw 0 1vw 14vw;
+  width:36%;
+}
+
+.Fristrations-List{
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  padding: 0 11vw 0 14vw;
+  width:62%;
+}
+
+.BIO{
+  font-size: 6vw;
+  padding: 6vw 11vw 2vw 14vw;
+  width:11%;
+}
+
+.BIO-p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 0 0 0 14vw;
+  width:72%;
+}
+
+/* ------------------ USER STORIES SECTION -------------------------------------*/
+
+.User-Stories-Section{
+  background: #FFA796;
+  width: 100%;
+}
+
+.SaveSafe-UserStory-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 3.5vw;
+  right: 59vw;
+  width: 25%;
+}
+
+.SaveSafe-SWOT-Pinterest-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 37vw;
+  right: 40vw;
+  width: 25%;
+}
+
+/* ------------------ USER FLOW SECTION ----------------------------------------*/
+
+.User-Flows-Section{
+  width: 100%;
+}
+
+.UserFlow-Images{
+  padding-top: 5.3vw;
+  width: 100%;
+}
+
+
+/* ------------------ WIREFRAME SECTION ----------------------------------------*/
+
+.Wireframes-Section{
+  background-color: #97B7CC;
+  border-bottom: 4vw solid white;
+  height: 15.5%;
+  width: 100%;
+}
+
+.Wireframe-image{
+  display: none;
+  width: 100%;
+}
+
+.Wireframes-Section h1{
+  font-size: 6vw;
+  padding: 5.5vw 11vw 0 14vw;
+}
+
+.Wireframes-Section p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 16vw 5vw 0 14vw;
+  width: 72%;
+}
+
+.Wireframe-mobile{
+  display: inline;
+  padding: 62vw 0 0 0;
+  width: 100%;
+}
+
+.Wireframe-Images{
+  height: 121vw;
+  padding: 0 4vw 0 4vw;
+  width: 91%;
+}
+
+.Wireframe-Digital{
+  height: 100vw;
+  padding: 0 4vw 0 7vw;
+  width: 86%;
+}
+
+.SaveSafe-Wireframe-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 40vw;
+  right: 59vw;
+  width: 25%;
+}
+
+/* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
+
+.Analysis-of-Test-Section{
+  border-bottom: 4vw solid white;
+}
+
+.test-1{
+  font-size: 3.5vw;
+  padding: 0 4vw 0 14vw;
+}
+
+.test-2{
+  font-size: 3.5vw;
+  padding: 28vw 4vw 0 14vw;
+}
+
+.test-3{
+  font-size: 3.5vw;
+  padding: 56vw 4vw 0 14vw;
+}
+
+.test-1-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  margin-top: -0.5vw;
+  width: 55.5%;
+}
+
+.test-2-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding-left: 26.5vw;
+  padding-top: 28vw;
+  width: 55.5%;
+}
+
+.test-3-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding-top: 59vw;
+  width: 55.5%;
+}
+
+/* ------------------ MOCKUPS SECTIONS ----------------------------------------*/
+
+.Mockup-Section{
+  background-color: #97B7CC;
+  border-bottom: 4vw solid white;
+  height: 30.5%;
+}
+
+.Mockup-Image{
+  display: none;
+}
+
+.Mockup-Section h1{
+  padding: 5vw 0 5vw 14vw;
+}
+
+.Mockup-Section p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 15.4vw 0 0 14vw;
+  width: 72%;
+}
+
+.SaveSafe-Mockup-Mobile-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 43vw;
+  right: 25vw;
+  width: 25%;
+}
+
+.SaveSafe-Mockup-Desktop-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 43vw;
+  right: 59vw;
+  width: 25%;
+}
+
+.Mockup-portfolio{
+  border-bottom: 4vw solid white;
+  display: inline;
+  padding: 65vw 0 0 0;
+  width: 100%;
+}
+
+.Mockup-Image-Digital{
+  padding-top: 0vw;
+  width: 100%;
+}
+
+/* ------------------ BRANDING SECTION ----------------------------------------*/
+
+.Branding-Section{
+  background: #ffffff;
+  width: 100%;
+}
+
+.SaveSafe-Branding-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 4vw;
+  right: 59vw;
+  width: 25%;
+}
+
+.sketching-of-logo{
+  padding: 23vw 0 0 4vw;
+  width: 92%;
+}
+
+.color-info{
+  padding: 4vw 0 0 4vw;
+  width: 92%;
+}
+
+.Mobile-logo-digital{
+  padding: 4vw 0 4vw 16vw;
+  width: 65%;
+}
+
+/* ------------------ TYPEFACE SECTION ----------------------------------------*/
+
+.Typeface-Section{
+  background: #FFA796;
+  border-bottom: 3.5vw solid white;
+  width: 100%;
+}
+
+.Plantagenet-Cherokee-font{
+  font-size: 3vw;
+  line-height: 4.5vw;
+  padding: 4vw 0 4vw 25vw;
+  width: 54%;
+}
+
+.Ovo-font{
+  font-size: 3vw;
+  line-height: 4.5vw;
+  padding: 4vw 0 4vw 25vw;
+  width: 54%;
+}
+
+/* ------------------ PROTOTYPE SECTION----------------------------------------*/
+.Prototype{
+  background-color: #97B7CC;
+  border-bottom: 3.5vw solid white;
+  width: 100%;
+}
+
+.Prototype-image{
+  display: none;
+  width: 100%;
+}
+
+.Prototype h1{
+  font-size: 6vw;
+  padding: 6vw 11vw 0 14vw;
+}
+
+.Prototype p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 16.4vw 0vw 0 14vw;
+  width: 74%;
+}
+
+.SaveSafe-Prototype-Mobile-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 40vw;
+  right: 24vw;
+  width: 25%;
+}
+
+.SaveSafe-Prototype-Desktop-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 40vw;
+  right: 59vw;
+  width: 25%;
+}
+
+.Prototype-Image{
+  display: inline;
+}
+
+.Prototype-lake{
+  width: 100%;
+}
+
+/* ------------------ ANALYSIS OF TEST SECTION --------------------------------*/
+
+.test2-one{
+  font-size: 3.5vw;
+  padding: 0 4vw 0 14vw;
+}
+
+.test2-two{
+  font-size: 3.5vw;
+  padding: 38vw 4vw 0 14vw;
+}
+
+.test2-three{
+  font-size: 3.5vw;
+  padding: 81vw 4vw 0 14vw;
+}
+
+.test2-one-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  width: 60%;
+}
+
+.test2-two-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding-left: 27vw;
+  padding-top: 38vw;
+  width: 60%;
+}
+
+.test2-three-info{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding-top: 84vw;
+  width: 60%;
+}
+
+/* ------------------ CONCLUSION SECTION --------------------------------------*/
+
+.Conclusion{
+  background: #FFA796;
+  border-bottom: 3.5vw solid white;
+  width: 100%;
+}
+
+.Conclusion p{
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  padding: 0 0 0 14vw;
+  width: 74%;
+}
+
+.SaveSafe-Conclusion1-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 6vw;
+  right: 54%;
+  width: 31%;
+}
+
+.SaveSafe-Conclusion2-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 6vw;
+  right: 13.5%;
+  width: 31%;
+}
+
 }

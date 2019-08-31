@@ -1635,19 +1635,19 @@ p{
   /*-- User Surveys --*/95vw
   /*-- SWOT Surveys --*/100vw
   /*-- Personas --*/70vw
-  /*-- Personas-Leanne --*/375vw
+  /*-- Personas-Leanne --*/399vw
   /*-- Personas-Joe --*/355vw
   /*-- User Stories --*/80vw
   /*-- User Flows --*/175vw
   /*-- Wireframes --*/373vw
-  /*-- Analysis of Test --*/105vw
+  /*-- Analysis of Test --*/125vw
   /*-- Mockups --*/198vw
   /*-- Branding --*/243vw
   /*-- Typeface --*/127vw
   /*-- Prototype --*/62vw
   /*-- Prototype Image --*/71vw
-  /*-- Analysis of Test --*/153vw
-  /*-- Conclusion --*/97vw
+  /*-- Analysis of Test --*/180vw
+  /*-- Conclusion --*/105vw
   /*-- Footer --*/42vw
   ;
 }
@@ -1683,10 +1683,7 @@ p{
 
 .hero-SaveSafe h2{
   font-size: 3.5vw;
-  line-height: 3vw;
   padding: 20vw 0 0 13vw;
-  position: absolute;
-  text-align: left;
   width: 73vw;
 }
 
@@ -1936,7 +1933,7 @@ p{
 
 .Motivations-p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 0 0 0 14vw;
   width:74%;
 }
@@ -2022,7 +2019,7 @@ p{
 
 .BIO-p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 0 0 0 14vw;
   width:72%;
 }
@@ -2083,7 +2080,7 @@ p{
 
 .Wireframes-Section p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 16vw 5vw 0 14vw;
   width: 72%;
 }
@@ -2109,7 +2106,7 @@ p{
 .SaveSafe-Wireframe-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 40vw;
+  margin-top: 42vw;
   right: 59vw;
   width: 25%;
 }
@@ -2122,38 +2119,38 @@ p{
 
 .test-1{
   font-size: 3.5vw;
-  padding: 0 4vw 0 14vw;
+  padding: 3vw 4vw 0 14vw;
 }
 
 .test-2{
   font-size: 3.5vw;
-  padding: 28vw 4vw 0 14vw;
+  padding: 35vw 4vw 0 14vw;
 }
 
 .test-3{
   font-size: 3.5vw;
-  padding: 56vw 4vw 0 14vw;
+  padding: 69vw 4vw 0 14vw;
 }
 
 .test-1-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
-  margin-top: -0.5vw;
+  line-height: 5.5vw;
+  margin-top: 1.5vw;
   width: 55.5%;
 }
 
 .test-2-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding-left: 26.5vw;
-  padding-top: 28vw;
+  padding-top: 34vw;
   width: 55.5%;
 }
 
 .test-3-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
-  padding-top: 59vw;
+  line-height: 5.5vw;
+  padding-top: 74vw;
   width: 55.5%;
 }
 
@@ -2175,9 +2172,9 @@ p{
 
 .Mockup-Section p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 15.4vw 0 0 14vw;
-  width: 72%;
+  width: 76%;
 }
 
 .SaveSafe-Mockup-Mobile-Button{
@@ -2279,7 +2276,7 @@ p{
 
 .Prototype p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 16.4vw 0vw 0 14vw;
   width: 74%;
 }
@@ -2287,7 +2284,7 @@ p{
 .SaveSafe-Prototype-Mobile-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 40vw;
+  margin-top: 42vw;
   right: 24vw;
   width: 25%;
 }
@@ -2295,7 +2292,7 @@ p{
 .SaveSafe-Prototype-Desktop-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 40vw;
+  margin-top: 42vw;
   right: 59vw;
   width: 25%;
 }
@@ -2312,37 +2309,37 @@ p{
 
 .test2-one{
   font-size: 3.5vw;
-  padding: 0 4vw 0 14vw;
+  padding: 1vw 4vw 0 14vw;
 }
 
 .test2-two{
   font-size: 3.5vw;
-  padding: 38vw 4vw 0 14vw;
+  padding: 46vw 4vw 0 14vw;
 }
 
 .test2-three{
   font-size: 3.5vw;
-  padding: 81vw 4vw 0 14vw;
+  padding: 97vw 4vw 0 14vw;
 }
 
 .test2-one-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   width: 60%;
 }
 
 .test2-two-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding-left: 27vw;
-  padding-top: 38vw;
+  padding-top: 45vw;
   width: 60%;
 }
 
 .test2-three-info{
   font-size: 3.5vw;
-  line-height: 4.5vw;
-  padding-top: 84vw;
+  line-height: 5.5vw;
+  padding-top: 100vw;
   width: 60%;
 }
 
@@ -2356,9 +2353,9 @@ p{
 
 .Conclusion p{
   font-size: 3.5vw;
-  line-height: 4.5vw;
+  line-height: 5.5vw;
   padding: 0 0 0 14vw;
-  width: 74%;
+  width: 76%;
 }
 
 .SaveSafe-Conclusion1-Button{

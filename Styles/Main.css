@@ -529,7 +529,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3vw;
-  padding-left: 4.5vw;
+  padding-left: 5.2vw;
   position: absolute;
   text-align: left;
   width: 55%;
@@ -631,7 +631,7 @@ p{
   line-height: 3.3vw;
   margin-top: 28vw;
   position: absolute;
-  right: 25.5vw;
+  right: 26vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -1130,7 +1130,7 @@ p{
   padding: 15.4vw 0 0 11vw;
   position: absolute;
   text-align: left;
-  width: 44%;
+  width: 45%;
 }
 
 .SaveSafe-Mockup-Mobile-Button{
@@ -1313,7 +1313,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 19.5vw 4vw 0 21vw;
+  padding: 16.5vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -1321,7 +1321,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2.5vw;
   font-weight: 900;
-  padding: 42vw 4vw 0 21vw;
+  padding: 39vw 4vw 0 21vw;
   position: absolute;
 }
 
@@ -1339,7 +1339,7 @@ p{
   font-size: 2vw;
   line-height: 3.5vw;
   padding-left: 31.3vw;
-  padding-top: 19vw;
+  padding-top: 16vw;
   position: absolute;
   width: 55.5%;
 }
@@ -1349,7 +1349,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding-top: 44vw;
+  padding-top: 41vw;
   position: absolute;
   width: 55.5%;
 }
@@ -1640,9 +1640,9 @@ p{
   /*-- Process --*/101vw
   /*-- User Surveys --*/95vw
   /*-- SWOT Surveys --*/100vw
-  /*-- Personas --*/70vw
-  /*-- Personas-Leanne --*/399vw
-  /*-- Personas-Joe --*/355vw
+  /*-- Personas --*/67vw
+  /*-- Personas-Leanne --*/394vw
+  /*-- Personas-Joe --*/372vw
   /*-- User Stories --*/80vw
   /*-- User Flows --*/175vw
   /*-- Wireframes --*/373vw
@@ -1652,9 +1652,9 @@ p{
   /*-- Typeface --*/127vw
   /*-- Prototype --*/62vw
   /*-- Prototype Image --*/71vw
-  /*-- Analysis of Test --*/180vw
+  /*-- Analysis of Test --*/175vw
   /*-- Conclusion --*/105vw
-  /*-- Footer --*/42vw
+  /*-- Footer --*/45vw
   ;
 }
 
@@ -1920,7 +1920,7 @@ p{
 .SaveSafe-Personas-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 48vw;
+  margin-top: 44vw;
   right: 60vw;
   width: 25%;
 }
@@ -2180,7 +2180,7 @@ p{
   font-size: 3.5vw;
   line-height: 5.5vw;
   padding: 15.4vw 0 0 14vw;
-  width: 76%;
+  width: 78%;
 }
 
 .SaveSafe-Mockup-Mobile-Button{
@@ -2320,12 +2320,12 @@ p{
 
 .test2-two{
   font-size: 3.5vw;
-  padding: 46vw 4vw 0 14vw;
+  padding: 40vw 4vw 0 14vw;
 }
 
 .test2-three{
   font-size: 3.5vw;
-  padding: 97vw 4vw 0 14vw;
+  padding: 88vw 4vw 0 14vw;
 }
 
 .test2-one-info{
@@ -2338,14 +2338,14 @@ p{
   font-size: 3.5vw;
   line-height: 5.5vw;
   padding-left: 27vw;
-  padding-top: 45vw;
+  padding-top: 39vw;
   width: 60%;
 }
 
 .test2-three-info{
   font-size: 3.5vw;
   line-height: 5.5vw;
-  padding-top: 100vw;
+  padding-top: 92vw;
   width: 60%;
 }
 
@@ -2390,19 +2390,19 @@ p{
 }
 
 .email-link{
-    background-color: #D6FFF9;
-    border: white 2px solid ;
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-    color: #000000;
-    font-family: Raleway;
-    font-size: 3.5vw;
-    line-height: 5.3vw;
-    position: absolute;
-    right: 25%;
-    text-align: center;
-    text-decoration: none;
-    -webkit-border-radius: .5vw;
-    width: 50%;
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 3.5vw;
+  line-height: 5.3vw;
+  position: absolute;
+  right: 25%;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 50%;
 }
 
 .icon{

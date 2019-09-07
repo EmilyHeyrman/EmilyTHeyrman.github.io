@@ -333,17 +333,23 @@ display: none;
 }
 
 .email-link{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
   color: #000000;
-  cursor: pointer;
+  font-family: Raleway;
   font-size: 2.5vw;
+  line-height: 4.3vw;
   position: absolute;
+  right: 31%;
   text-align: center;
   text-decoration: none;
-  width: 100%;
+  -webkit-border-radius: .5vw;
+  width: 37%;
 }
 
 .icon{
-  font: normal normal normal 6vw/1 FontAwesome;
+  font: normal normal normal 4vw/1 FontAwesome;
   padding-top: 13vw;
   text-align: center;
   width: 100%;
@@ -351,22 +357,22 @@ display: none;
 
 .linkedin-link{
   color: #000000;
-  padding: 0 4vw 0 4vw;
+  padding: 0 10vw 0 10vw;
 }
 
 .github-link{
   color: #000000;
-  padding: 0 4vw 0 4vw;
+  padding: 0 10vw 0 4vw;
 }
 
 .facebook-link{
   color: #000000;
-  padding: 0 4vw 0 4vw;
+  padding: 0 10vw 0 4vw;
 }
 
 .twittier-link{
   color: #000000;
-  padding: 0 4vw 0 4vw;
+  padding: 0 10vw 0 4vw;
 }
 
 .footer{
@@ -453,9 +459,9 @@ p{
   font-family: Raleway;
   font-size: 2vw;
   line-height: 3.3vw;
-  margin-top: 27vw;
+  margin-top: 27.4vw;
   position: absolute;
-  right: 73.5vw;
+  right: 73vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -625,7 +631,7 @@ p{
   line-height: 3.3vw;
   margin-top: 28vw;
   position: absolute;
-  right: 26.5vw;
+  right: 25.5vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -642,7 +648,7 @@ p{
   line-height: 3.3vw;
   margin-top: 28vw;
   position: absolute;
-  right: 7.5vw;
+  right: 6.5vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -1374,7 +1380,7 @@ p{
   line-height: 3.3vw;
   margin-top: 3vw;
   position: absolute;
-  right: 63vw;
+  right: 62vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -2372,6 +2378,63 @@ p{
   margin-top: 6vw;
   right: 13.5%;
   width: 31%;
+}
+
+/* ----------------------- BOTTOM CONTACT SECTION MOBILE --------------------*/
+
+.lets-talk-links h1{
+  font-size: 5vw;
+  padding: 7vw 0 8vw 0;
+  text-align: center;
+  width: 100%;
+}
+
+.email-link{
+    background-color: #D6FFF9;
+    border: white 2px solid ;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    color: #000000;
+    font-family: Raleway;
+    font-size: 3.5vw;
+    line-height: 5.3vw;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: .5vw;
+    width: 50%;
+}
+
+.icon{
+  font: normal normal normal 6vw/1 FontAwesome;
+  padding-top: 13vw;
+  text-align: center;
+  width: 100%;
+}
+
+.linkedin-link{
+  color: #000000;
+  padding: 0 7vw 0 4vw;
+}
+
+.github-link{
+  color: #000000;
+  padding: 0 7vw 0 4vw;
+}
+
+.facebook-link{
+  color: #000000;
+  padding: 0 7vw 0 4vw;
+}
+
+.twittier-link{
+  color: #000000;
+  padding: 0 7vw 0 4vw;
+}
+
+.footer{
+  background-color: #97B7CC;
+  width: 100%;
 }
 
 }

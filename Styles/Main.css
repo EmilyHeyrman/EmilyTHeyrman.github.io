@@ -402,14 +402,14 @@ display: none;
   /*-- Personas-Joe --*/127vw
   /*-- User Stories Image --*/59vw
   /*-- User Stories --*/47vw
-  /*-- User Flows --*/154vw
+  /*-- User Flows --*/157vw
   /*-- Wireframes --*/266vw
-  /*-- Analysis of Test --*/55vw
+  /*-- Analysis of Test --*/60vw
   /*-- Mockups --*/42vw
   /*-- Branding --*/200vw
   /*-- Typeface --*/85vw
   /*-- Prototype --*/42vw
-  /*-- Analysis of Test --*/85vw
+  /*-- Analysis of Test --*/91vw
   /*-- Conclusion --*/60vw
   /*-- Footer --*/42vw
   ;
@@ -1016,8 +1016,25 @@ p{
 }
 
 .UserFlow-Images{
-  padding-top: 5.3vw;
+  padding-top: 9.3vw;
   width: 100%;
+}
+
+.SaveSafe-UserFlows-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 63.3vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
 }
 
 /* ------------------ WIREFRAME SECTION ----------------------------------------*/
@@ -1137,6 +1154,22 @@ p{
   width: 55.5%;
 }
 
+.SaveSafe-User-Testing-Wireframes-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 35.5vw;
+  position: absolute;
+  right: 63.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
 /* ------------------ MOCKUPS SECTIONS ----------------------------------------*/
 
 .Mockup-Image{
@@ -1380,6 +1413,22 @@ p{
   width: 55.5%;
 }
 
+.SaveSafe-User-Testing-Prototype-Button{
+  background-color: #D6FFF9;
+  border: white 2px solid ;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 2vw;
+  line-height: 4.3vw;
+  margin-top: 65.5vw;
+  position: absolute;
+  right: 63.5vw;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: .5vw;
+  width: 14%;
+}
 /* ------------------ CONCLUSION SECTION --------------------------------------*/
 
 .Conclusion{
@@ -1672,15 +1721,15 @@ p{
   /*-- Personas-Joe --*/378vw
   /*-- User Stories Image --*/60vw
   /*-- User Stories --*/80vw
-  /*-- User Flows --*/175vw
+  /*-- User Flows --*/182vw
   /*-- Wireframes --*/373vw
-  /*-- Analysis of Test --*/125vw
+  /*-- Analysis of Test --*/139vw
   /*-- Mockups --*/198vw
   /*-- Branding --*/243vw
   /*-- Typeface --*/123vw
   /*-- Prototype --*/62vw
   /*-- Prototype Image --*/71vw
-  /*-- Analysis of Test --*/175vw
+  /*-- Analysis of Test --*/192vw
   /*-- Conclusion --*/128vw
   /*-- Footer --*/45vw
   ;
@@ -2111,8 +2160,16 @@ p{
   width: 100%;
 }
 
+.SaveSafe-UserFlows-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 3vw;
+  right: 58.5vw;
+  width: 25%;
+}
+
 .UserFlow-Images{
-  padding-top: 5.3vw;
+  padding-top: 20.3vw;
   width: 100%;
 }
 
@@ -2212,6 +2269,13 @@ p{
   width: 55.5%;
 }
 
+.SaveSafe-User-Testing-Wireframes-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 95vw;
+  right: 59vw;
+  width: 25%;
+}
 /* ------------------ MOCKUPS SECTIONS ----------------------------------------*/
 
 .Mockup-Section{
@@ -2399,6 +2463,14 @@ p{
   line-height: 5.5vw;
   padding-top: 92vw;
   width: 60%;
+}
+
+.SaveSafe-User-Testing-Prototype-Button{
+  font-size: 3.5vw;
+  line-height: 10.3vw;
+  margin-top: 153vw;
+  right: 57vw;
+  width: 26%;
 }
 
 /* ------------------ CONCLUSION SECTION --------------------------------------*/

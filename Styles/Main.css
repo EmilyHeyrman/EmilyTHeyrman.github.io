@@ -1596,7 +1596,6 @@ p{
   width: 25%;
 }
 
-
 /* ----------------------- SAVE SAFE IMAGE FOR MOBILE---------------------------*/
 
 .save-safe-mobile-image{
@@ -1933,7 +1932,9 @@ p{
   right: 40vw;
   width: 25%;
 }
+
 /* ------------------ PERSONAS SECTION -----------------------------------------*/
+
 .Personas-Section{
   background-color: #97B7CC;
   border-bottom: 4vw solid white;

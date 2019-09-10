@@ -300,7 +300,7 @@ display: none;
   font-size: 2.5vw;
   line-height: 4.3vw;
   position: absolute;
-  right: 30%;
+  right: 27%;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -742,9 +742,9 @@ p{
   font-family: Raleway;
   font-size: 2vw;
   line-height: 4.3vw;
-  margin-top: 4vw;
+  margin-top: 2.5vw;
   position: absolute;
-  right: 63.5vw;
+  right: 63vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -759,7 +759,7 @@ p{
   font-family: Raleway;
   font-size: 2vw;
   line-height: 4.3vw;
-  margin-top: 4vw;
+  margin-top: 2.5vw;
   position: absolute;
   right: 44.5vw;
   text-align: center;
@@ -839,7 +839,7 @@ p{
 }
 
 .Personas-Section h1{
-  padding: 5vw 0 5vw 11vw;
+  padding: 4vw 0 5vw 11vw;
   position: absolute;
 }
 
@@ -847,7 +847,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 12vw 0 0 11vw;
+  padding: 11vw 0 0 11vw;
   position: absolute;
   text-align: left;
   width: 40%;
@@ -861,7 +861,7 @@ p{
   font-family: Raleway;
   font-size: 2vw;
   line-height: 4.3vw;
-  margin-top: -7vw;
+  margin-top: -8vw;
   position: absolute;
   right: 74vw;
   text-align: center;
@@ -1002,7 +1002,7 @@ p{
   line-height: 4.3vw;
   margin-top: 2vw;
   position: absolute;
-  right: 63.5vw;
+  right: 63.3vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -1067,7 +1067,7 @@ p{
   font-family: Raleway;
   font-size: 2vw;
   line-height: 4.3vw;
-  margin-top: 30vw;
+  margin-top: 29.5vw;
   position: absolute;
   right: 26.5vw;
   text-align: center;
@@ -1272,7 +1272,7 @@ p{
 
 .Prototype h1{
   font-size: 4vw;
-  padding: 4vw 11vw 0 58vw;
+  padding: 4vw 11vw 0 57vw;
   position: absolute;
 }
 
@@ -1281,10 +1281,10 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 11.4vw 3vw 0 58vw;
+  padding: 11.4vw 3vw 0 57vw;
   position: absolute;
   text-align: left;
-  width: 38%;
+  width: 39%;
 }
 
 .SaveSafe-Prototype-Mobile-Button{
@@ -1297,7 +1297,7 @@ p{
   line-height: 4.3vw;
   margin-top: 29vw;
   position: absolute;
-  right: 7vw;
+  right: 8vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -1314,7 +1314,7 @@ p{
   line-height: 4.3vw;
   margin-top: 29vw;
   position: absolute;
-  right: 26.6vw;
+  right: 27.6vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -2343,7 +2343,7 @@ p{
   font-size: 3.5vw;
   line-height: 10.3vw;
   margin-top: 42vw;
-  right: 24vw;
+  right: 22vw;
   width: 26%;
 }
 
@@ -2351,7 +2351,7 @@ p{
   font-size: 3.5vw;
   line-height: 10.3vw;
   margin-top: 42vw;
-  right: 59vw;
+  right: 57vw;
   width: 26%;
 }
 

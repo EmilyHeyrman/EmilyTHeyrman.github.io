@@ -507,7 +507,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   padding-left: 6vw;
-  width: 43%;
+  width: 45%;
 }
 
 .tools{
@@ -829,6 +829,10 @@ p{
   width: 14%;
 }
 /* ------------------ PERSONAS SECTION -----------------------------------------*/
+
+.persona-image{
+  display: none;
+}
 
 .Persona-Image-Section{
   width: 100%;
@@ -1389,7 +1393,7 @@ p{
   font-size: 2vw;
   line-height: 3.5vw;
   padding: 0 0 0 21.5vw;
-  width: 58%;
+  width: 60%;
 }
 
 .SaveSafe-Conclusion1-Button{
@@ -1656,26 +1660,28 @@ p{
   /*-- IMAGE HERO --*/71vw
   /*-- Overview --*/64vw
   /*-- Problem --*/138vw
-  /*-- Solution --*/63vw
+  /*-- Solution --*/68vw
   /*-- Solution Image --*/114vw
   /*-- Process --*/101vw
   /*-- User Surveys --*/95vw
   /*-- SWOT Image --*/56vw
   /*-- SWOT Surveys --*/100vw
+  /*-- Personas image --*/71vw
   /*-- Personas --*/67vw
-  /*-- Personas-Leanne --*/394vw
-  /*-- Personas-Joe --*/372vw
+  /*-- Personas-Leanne --*/399vw
+  /*-- Personas-Joe --*/378vw
+  /*-- User Stories Image --*/60vw
   /*-- User Stories --*/80vw
   /*-- User Flows --*/175vw
   /*-- Wireframes --*/373vw
   /*-- Analysis of Test --*/125vw
   /*-- Mockups --*/198vw
   /*-- Branding --*/243vw
-  /*-- Typeface --*/127vw
+  /*-- Typeface --*/123vw
   /*-- Prototype --*/62vw
   /*-- Prototype Image --*/71vw
   /*-- Analysis of Test --*/175vw
-  /*-- Conclusion --*/105vw
+  /*-- Conclusion --*/128vw
   /*-- Footer --*/45vw
   ;
 }
@@ -1719,7 +1725,7 @@ p{
   font-size: 3.5vw;
   line-height: 10.3vw;
   margin-top: 30vw;
-  right: 54vw;
+  right: 52vw;
   width: 32%;
 }
 
@@ -1823,7 +1829,7 @@ p{
 .SaveSafe-Prototype1-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 42vw;
+  margin-top: 47vw;
   right: 53vw;
   width: 32%;
 }
@@ -1831,7 +1837,7 @@ p{
 .SaveSafe-Prototype2-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 42vw;
+  margin-top: 47vw;
   right: 14vw;
   width: 32%;
 }
@@ -1887,7 +1893,7 @@ p{
 .SaveSafe-Survey-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 5vw;
+  margin-top: 3.5vw;
   right: 59vw;
   width: 25%;
 }
@@ -1895,7 +1901,7 @@ p{
 .SaveSafe-Responses-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 5vw;
+  margin-top: 3.5vw;
   right: 25vw;
   width: 25%;
 }
@@ -1934,6 +1940,13 @@ p{
 }
 
 /* ------------------ PERSONAS SECTION -----------------------------------------*/
+.persona-image{
+  display: inline;
+}
+
+.Persona-Image-mobile{
+  width: 100%;
+}
 
 .Personas-Section{
   background-color: #97B7CC;
@@ -1960,7 +1973,7 @@ p{
   font-size: 3.5vw;
   line-height: 10.3vw;
   margin-top: 44vw;
-  right: 60vw;
+  right: 58.5vw;
   width: 25%;
 }
 
@@ -2219,7 +2232,7 @@ p{
   font-size: 3.5vw;
   line-height: 5.5vw;
   padding: 15.4vw 0 0 14vw;
-  width: 78%;
+  width: 79%;
 }
 
 .SaveSafe-Mockup-Mobile-Button{
@@ -2291,14 +2304,14 @@ p{
 .Plantagenet-Cherokee-font{
   font-size: 3vw;
   line-height: 4.5vw;
-  padding: 4vw 0 4vw 25vw;
-  width: 54%;
+  padding: 4vw 0 4vw 20vw;
+  width: 56%;
 }
 
 .Ovo-font{
   font-size: 3vw;
   line-height: 4.5vw;
-  padding: 4vw 0 4vw 25vw;
+  padding: 4vw 0 4vw 20vw;
   width: 54%;
 }
 
@@ -2331,7 +2344,7 @@ p{
   line-height: 10.3vw;
   margin-top: 42vw;
   right: 24vw;
-  width: 25%;
+  width: 26%;
 }
 
 .SaveSafe-Prototype-Desktop-Button{
@@ -2339,7 +2352,7 @@ p{
   line-height: 10.3vw;
   margin-top: 42vw;
   right: 59vw;
-  width: 25%;
+  width: 26%;
 }
 
 .Prototype-Image{
@@ -2407,16 +2420,16 @@ p{
   font-size: 3.5vw;
   line-height: 10.3vw;
   margin-top: 6vw;
-  right: 54%;
-  width: 31%;
+  right: 32%;
+  width: 35%;
 }
 
 .SaveSafe-Conclusion2-Button{
   font-size: 3.5vw;
   line-height: 10.3vw;
-  margin-top: 6vw;
-  right: 13.5%;
-  width: 31%;
+  margin-top: 25vw;
+  right: 32%;
+  width: 35%;
 }
 
 /* ----------------------- BOTTOM CONTACT SECTION MOBILE --------------------*/

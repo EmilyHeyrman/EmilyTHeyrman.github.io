@@ -391,14 +391,16 @@ display: none;
   /*-- nav --*/5.5rem
   /*-- Hero --*/39vw
   /*-- Overview --*/41vw
-  /*-- Problem --*/60vw
+  /*-- Problem --*/84vw
   /*-- Solution --*/38vw
   /*-- Process --*/70vw
   /*-- User Surveys --*/54vw
+  /*-- SWOT Image --*/56vw
   /*-- SWOT Surveys --*/41vw
   /*-- Personas --*/42vw
   /*-- Personas-Leanne --*/133vw
   /*-- Personas-Joe --*/127vw
+  /*-- User Stories Image --*/59vw
   /*-- User Stories --*/47vw
   /*-- User Flows --*/154vw
   /*-- Wireframes --*/266vw
@@ -543,6 +545,17 @@ p{
   width: 100%;
 }
 
+.problem-p{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 2vw;
+  line-height: 3.5vw;
+  padding: 0 15vw 5vw 21vw;
+  width: 56%;
+  text-align: left;
+}
+
 .top-line-problem{
   color: #000000;
   display: inline-block;
@@ -597,7 +610,6 @@ p{
 
 /* ------------------ SOLUTION SECTION -----------------------------------------*/
 
-
 .Solution{
   background-image:url(../images/solution-photo-section.jpg);
   background-size: 100%;
@@ -606,7 +618,7 @@ p{
 
 .Solution h1{
   font-size: 4vw;
-  padding: 4.5vw 11vw 0 58vw;
+  padding: 3vw 11vw 0 58vw;
   position: absolute;
 }
 
@@ -615,7 +627,7 @@ p{
   font-family: Source Sans Pro;
   font-size: 2vw;
   line-height: 3.5vw;
-  padding: 11vw 0 0 58vw;
+  padding: 9vw 0 0 58vw;
   position: absolute;
   text-align: left;
   width: 36%;
@@ -631,7 +643,7 @@ p{
   line-height: 3.3vw;
   margin-top: 28vw;
   position: absolute;
-  right: 26vw;
+  right: 25.5vw;
   text-align: center;
   text-decoration: none;
   -webkit-border-radius: .5vw;
@@ -718,6 +730,7 @@ p{
 
 .User-Surveys-Section{
   background: #FFA796;
+  border-bottom: 3.5vw solid white;
   width: 100%;
 }
 
@@ -756,6 +769,10 @@ p{
 }
 
 /* ------------------ SWOT ANALYSIS SECTION-------------------------------------*/
+
+.SWOT-Image{
+  width: 100%;
+}
 
 .SWOT-Analysis-Section{
   width: 100%;
@@ -960,6 +977,11 @@ p{
 }
 
 /* ------------------ USER STORIES SECTION -------------------------------------*/
+
+.user-stories-image{
+  border-bottom: 3.5vw solid white;
+  width: 100%;
+}
 
 .User-Stories-Section{
   background: #FFA796;
@@ -1634,11 +1656,12 @@ p{
   /*-- Hero --*/50vw
   /*-- IMAGE HERO --*/71vw
   /*-- Overview --*/64vw
-  /*-- Problem --*/94vw
+  /*-- Problem --*/138vw
   /*-- Solution --*/63vw
   /*-- Solution Image --*/114vw
   /*-- Process --*/101vw
   /*-- User Surveys --*/95vw
+  /*-- SWOT Image --*/56vw
   /*-- SWOT Surveys --*/100vw
   /*-- Personas --*/67vw
   /*-- Personas-Leanne --*/394vw
@@ -1739,6 +1762,17 @@ p{
 
 /* ------------------ PROBLEM SECTION ------------------------------------------*/
 
+.problem-p{
+  color: #000000;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+  padding: 0 5vw 5vw 14vw;
+  width: 75%;
+  text-align: left;
+}
+
 .top-line-problem{
   font-size: 3.5vw;
   padding: 0 5vw 5vw 14vw;
@@ -1784,7 +1818,7 @@ p{
   font-size: 3.5vw;
   line-height: 5.5vw;
   padding: 15vw 6vw 0 14vw;
-  width: 75%;
+  width: 76%;
 }
 
 .SaveSafe-Prototype1-Button{
@@ -1847,6 +1881,7 @@ p{
 
 .User-Surveys-Section{
   background: #FFA796;
+  border-bottom: 4vw solid white;
   width: 100%;
 }
 
@@ -1867,6 +1902,9 @@ p{
 }
 
 /* ------------------ SWOT ANALYSIS SECTION-------------------------------------*/
+.SWOT-Image{
+  width: 100%;
+}
 
 .SWOT-Analysis-Section{
   width: 100%;
